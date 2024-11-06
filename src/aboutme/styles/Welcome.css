@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Fira";
+  src: url("~/public/assets/fira.ttf");
+}
+
+.welcomepage {
+  margin-left: 36vw;
+  margin-top: 10vh;
+  background-color: #070f2b;
+  border-radius: 10px;
+  max-width: 50vw;
+  max-height: 50vh;
+}
+
+.welcomepage h1,
+.welcomepage h2,
+.welcomepage p {
+  color: #ffffff;
+  right: 7vw;
+  font-family: "Fira";
+  top: 240px;
+  position: relative;
+  text-align: center;
+}
+.welcomepage h1 {
+  font-size: 32px;
+}
+
+.welcomepage h2 {
+  font-size: 24px;
+}
+
+.welcomepage p {
+  font-size: 18px;
+}
+
+.welcomepage img {
+  position: relative;
+  bottom: 8vh;
+  left: 43vw;
+  height: 500px;
+  border-radius: 8px;
+}
+
+.bestdogever {
+  margin-left: 17vw;
+  margin-top: 2vh;
+  background-color: #9290c3;
+  border-radius: 10px;
+  max-width: 50vw;
+  max-height: 50vh;
+}
+
+.bestdogever h1,
+.bestdogever h2,
+.bestdogever p {
+  color: #ffffff;
+  right: -3vw;
+  font-family: "Fira";
+  top: 17vh;
+  position: relative;
+  text-align: center;
+}
+
+.bestdogever h1 {
+  font-size: 32px;
+}
+
+.bestdogever h2 {
+  font-size: 24px;
+}
+
+.bestdogever p {
+  font-size: 18px;
+}
+
+.bestdogever img {
+  position: relative;
+  bottom: 4vh;
+  right: 10vw;
+  height: 500px;
+  border-radius: 8px;
+}
+
+.interests {
+  margin-top: 0vh;
+  margin-left: 36vw;
+  background-color: #070f2b;
+  border-radius: 10px;
+  max-width: 50vw;
+  max-height: 50vh;
+}
+
+.interests h1,
+.interests p {
+  text-align: center;
+}
