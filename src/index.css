@@ -1,9 +1,14 @@
-@import "./landingpage/styles/MenuBar.css";
-@import "./aboutme/styles/Welcome.css";
-@import "./projects/styles/Projects.css";
+@import "./static/styles/landingpage/MenuBar.css";
+@import "./static/styles/aboutme/Welcome.css";
+@import "./static/styles/projects/Projects.css";
+
+@font-face {
+  font-family: "Fira";
+  src: url("/public/fira.ttf");
+}
 
 body {
-  background-image: url("/static/background.png");
+  background-image: url("/public/static/images/background.png");
   background-color: #2196f3;
   background-size: cover;
   background-position: center;

@@ -1,5 +1,5 @@
 import React from "react";
-import GreetingsImage from "../assets/GradPhoto.jpg";
+import GreetingsImage from "../../../static/images/GradPhoto.jpg";
 
 const Welcome = () => {
   return (

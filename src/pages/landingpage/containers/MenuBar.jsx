@@ -1,4 +1,5 @@
 import React from "react";
+import coolnamelocation from "../../../static/images/name.gif";
 
 const Button = ({ href, text, className }) => {
   return (
@@ -12,17 +13,17 @@ const SocialMedia = () => {
   const socialmediaicons = [
     {
       name: "facebook",
-      src: "../assets/facebook.svg",
+      src: "static/socialmedia/facebook.svg",
       link: "https://www.facebook.com/jordan.cavlovic",
     },
     {
       name: "github",
-      src: "../assets/github.svg",
+      src: "static/socialmedia/github.svg",
       link: "https://www.github.com/jcavlovic",
     },
     {
       name: "linkedin",
-      src: "../assets/linkedin.svg",
+      src: "static/socialmedia/linkedin.svg",
       link: "https://www.linkedin.com/in/jordan-cavlovic-507629199/",
     },
   ];
@@ -46,8 +47,6 @@ const SocialMedia = () => {
 };
 
 const CoolNameGIF = () => {
-  const coolnamelocation = "../assets/name.gif";
-
   return (
     <img src={coolnamelocation} alt="CoolNameGiF" className="coolnamegif" />
   );

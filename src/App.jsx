@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import LandingPage from "./landingpage/LandingPage.jsx";
-import AboutMe from "./aboutme/AboutMe.jsx";
-import Projects from "./projects/Projects.jsx";
+import LandingPage from "./pages/landingpage/LandingPage.jsx";
+import AboutMe from "./pages/aboutme/AboutMe.jsx";
+import Projects from "./pages/projects/Projects.jsx";
 
 function App() {
   return (

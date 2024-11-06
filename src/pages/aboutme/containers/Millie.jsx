@@ -1,5 +1,5 @@
 import React from "react";
-import MilliePhoto from "../assets/Millie.png";
+import MilliePhoto from "../../../static/images/Millie.png";
 
 const Millie = () => {
   return (
