@@ -21,6 +21,7 @@
 }
 
 .dropdown-item {
+  text-align: center;
   font-family: "Fira";
   color: black;
 }
@@ -31,4 +32,30 @@
 
 .socialmediaicons {
   margin-left: 60rem;
+}
+
+.dropdown-item-finished {
+  font-weight: bold;
+  font-size: 10pt;
+  text-align: center;
+  font-style: italic;
+  cursor: default;
+}
+
+.dropdown-item-finished:hover {
+  color: #000000;
+  background-color: white;
+}
+
+.dropdown-item-inprogress {
+  font-weight: bold;
+  font-size: 10pt;
+  text-align: center;
+  font-style: italic;
+  cursor: default;
+}
+
+.dropdown-item-inprogress:hover {
+  color: #000000;
+  background-color: white;
 }

@@ -31,9 +31,14 @@ const NavBar = () => {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
+            <NavDropdown.Item className="dropdown-item-inprogress">
+              In-Progress
+            </NavDropdown.Item>
             <NavDropdown.Item href="./projects">cavlovic.dev</NavDropdown.Item>
             <NavDropdown.Item href="./projects">R.A.P.T.O.R.</NavDropdown.Item>
-            <NavDropdown.Divider />
+            <NavDropdown.Item className="dropdown-item-finished">
+              Finished
+            </NavDropdown.Item>
             <NavDropdown.Item>None</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="./aboutme">About</Nav.Link>
