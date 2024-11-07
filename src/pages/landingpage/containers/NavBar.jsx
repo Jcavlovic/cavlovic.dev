@@ -1,24 +1,19 @@
 import React, { useState } from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
-import coolnamelocation from "../../../static/images/cavlovic.gif";
-import { socialmedia } from "../../../static/links/links.jsx";
+import coolNameGIF from "../../../static/images/cavlovic.gif";
+import { socialMediaLinks } from "../../../static/links/links";
 
-const NavBar = () => {
+const NavigationBar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
 
-  const handleMouseEnter = () => {
-    setShowDropdown(true);
-  };
-
-  const handleMouseLeave = () => {
-    setShowDropdown(false);
-  };
+  const handleMouseEnter = () => setShowDropdown(true);
+  const handleMouseLeave = () => setShowDropdown(false);
 
   return (
     <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="./"></Navbar.Brand>
+      <Navbar.Brand href="./" />
       <a href="./">
-        <img src={coolnamelocation} alt="CoolNameGIF" className="coolnamegif" />
+        <img src={coolNameGIF} alt="Cool Name GIF" className="cool-name-gif" />
       </a>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -35,30 +30,30 @@ const NavBar = () => {
               In-Progress
             </NavDropdown.Item>
             <NavDropdown.Item href="./projects">cavlovic.dev</NavDropdown.Item>
-            <NavDropdown.Item href="./projects">R.A.P.T.O.R.</NavDropdown.Item>
+            <NavDropdown.Item href="./projects">RAPTORv3</NavDropdown.Item>
             <NavDropdown.Item className="dropdown-item-finished">
               Finished
             </NavDropdown.Item>
             <NavDropdown.Item>None</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="./aboutme">About</Nav.Link>
-          <SocialMediaIcons />
+          <SocialMediaLinks />
         </Nav>
       </Navbar.Collapse>
     </Navbar>
   );
 };
 
-const SocialMediaIcons = () => {
+const SocialMediaLinks = () => {
   return (
-    <div className="socialmediaicons">
-      {socialmedia.map((social, index) => (
-        <a href={social.page} key={index}>
-          <img src={social.src} alt={social.alt} />
+    <div className="social-media-links">
+      {socialMediaLinks.map((socialLink, index) => (
+        <a href={socialLink.page} key={index}>
+          <img src={socialLink.src} alt={socialLink.alt} />
         </a>
       ))}
     </div>
   );
 };
 
-export default NavBar;
+export default NavigationBar;

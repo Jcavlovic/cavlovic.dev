@@ -1,4 +1,4 @@
-export const socialmedia = [
+export const socialMediaLinks = [
   {
     page: "https://www.facebook.com/jordan.cavlovic",
     alt: "facebook",
