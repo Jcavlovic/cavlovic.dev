@@ -1,11 +1,11 @@
 import React from "react";
 import UnderConstruction from "./containers/UnderConstruction.jsx";
-import MenuBar from "../landingpage/containers/MenuBar.jsx";
+import NavBar from "../landingpage/containers/NavBar.jsx";
 
 const Projects = () => {
   return (
     <div>
-      <MenuBar />
+      <NavBar />
       <UnderConstruction />
     </div>
   );

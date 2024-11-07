@@ -1,48 +1,59 @@
-import React from "react";
-import { Navbar, Nav, Dropdown } from "react-bootstrap";
+import React, { useState } from "react";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import coolnamelocation from "../../../static/images/cavlovic.gif";
+import { socialmedia } from "../../../static/links/links.jsx";
 
-const pages = [
-  { name: "Home", link: "/" },
-  { name: "About", link: "/about" },
-  {
-    name: "Projects",
-    submenu: [
-      { name: "Project 1", link: "/project1" },
-      { name: "Project 2", link: "/project2" },
-    ],
-  },
-  { name: "Contact", link: "/contact" },
-];
+const NavBar = () => {
+  const [showDropdown, setShowDropdown] = useState(false);
 
-const MenuBarNew = () => {
+  const handleMouseEnter = () => {
+    setShowDropdown(true);
+  };
+
+  const handleMouseLeave = () => {
+    setShowDropdown(false);
+  };
+
   return (
     <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="/">Your Brand</Navbar.Brand>
+      <Navbar.Brand href="./"></Navbar.Brand>
+      <a href="./">
+        <img src={coolnamelocation} alt="CoolNameGIF" className="coolnamegif" />
+      </a>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          {pages.map((page, index) =>
-            page.submenu ? (
-              <Dropdown key={index} as={Nav.Item}>
-                <Dropdown.Toggle as={Nav.Link}>{page.name}</Dropdown.Toggle>
-                <Dropdown.Menu>
-                  {page.submenu.map((subpage, subindex) => (
-                    <Dropdown.Item key={subindex} href={subpage.link}>
-                      {subpage.name}
-                    </Dropdown.Item>
-                  ))}
-                </Dropdown.Menu>
-              </Dropdown>
-            ) : (
-              <Nav.Link key={index} href={page.link}>
-                {page.name}
-              </Nav.Link>
-            )
-          )}
+        <Nav className="me-auto">
+          <Nav.Link href="./">Home</Nav.Link>
+          <NavDropdown
+            title="Projects"
+            id="projects-dropdown"
+            show={showDropdown}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
+            <NavDropdown.Item href="./projects">cavlovic.dev</NavDropdown.Item>
+            <NavDropdown.Item href="./projects">R.A.P.T.O.R.</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item>None</NavDropdown.Item>
+          </NavDropdown>
+          <Nav.Link href="./aboutme">About</Nav.Link>
+          <SocialMediaIcons />
         </Nav>
       </Navbar.Collapse>
     </Navbar>
   );
 };
 
-export default MenuBarNew;
+const SocialMediaIcons = () => {
+  return (
+    <div className="socialmediaicons">
+      {socialmedia.map((social, index) => (
+        <a href={social.page} key={index}>
+          <img src={social.src} alt={social.alt} />
+        </a>
+      ))}
+    </div>
+  );
+};
+
+export default NavBar;

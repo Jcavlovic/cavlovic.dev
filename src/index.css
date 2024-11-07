@@ -1,6 +1,7 @@
-@import "./static/styles/landingpage/MenuBar.css";
 @import "./static/styles/aboutme/Welcome.css";
 @import "./static/styles/projects/Projects.css";
+@import "./static/styles/navbar/NavBar.css";
+@import "./static/styles/landingpage/LandingPage.css";
 
 @font-face {
   font-family: "Fira";

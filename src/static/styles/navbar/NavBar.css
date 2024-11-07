@@ -1,0 +1,34 @@
+.navbar-collapse {
+  margin-left: 40rem;
+}
+
+.nav-link {
+  font-size: 14pt;
+  font-family: "Fira";
+  color: #000000;
+}
+.nav-link:hover {
+  color: #64d5fd;
+}
+
+.dropdown-toggle.nav-link {
+  font-family: "Fira";
+  color: black;
+}
+
+.dropdown-toggle.nav-link:hover {
+  color: #64d5fd;
+}
+
+.dropdown-item {
+  font-family: "Fira";
+  color: black;
+}
+
+.dropdown-item:hover {
+  color: #64d5fd;
+}
+
+.socialmediaicons {
+  margin-left: 60rem;
+}

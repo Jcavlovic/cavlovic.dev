@@ -1,4 +1,4 @@
-import MenuBar from "../landingpage/containers/MenuBar.jsx";
+import NavBar from "../landingpage/containers/NavBar.jsx";
 import Welcome from "./containers/Welcome.jsx";
 import Millie from "./containers/Millie.jsx";
 // import Interests from "./containers/Interests.jsx";
@@ -13,7 +13,7 @@ import Millie from "./containers/Millie.jsx";
 function AboutMe() {
   return (
     <div>
-      <MenuBar />
+      <NavBar />
       <Welcome />
       <Millie />
       {/* <Interests /> */}
