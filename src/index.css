@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "Fira";
-  src: url("/public/fira.ttf");
+  src: url("/public/static/fira.ttf");
 }
 
 body {
-  background-image: url("/public/static/images/background.png");
+  background-image: url("/public/static/background.png");
   background-color: #2196f3;
   background-size: cover;
   background-position: center;
