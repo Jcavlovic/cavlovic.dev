@@ -1,10 +1,10 @@
-import MenuBar from "./containers/MenuBar.jsx";
+import MenuBarNew from "./containers/NavBar.jsx";
 import AboutMe from "./containers/Content.jsx";
 
 function LandingPage() {
   return (
     <div>
-      <MenuBar />
+      <MenuBarNew />
       <AboutMe />
     </div>
   );

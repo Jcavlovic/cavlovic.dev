@@ -1,6 +1,11 @@
 import React from "react";
 import MilliePhoto from "../../../static/images/Millie.png";
 
+/**
+ * A functional component that displays a photo of Millie with a caption describing her awesomeness.
+ *
+ * @returns {React.ReactElement} The JSX element representing the Millie component.
+ */
 const Millie = () => {
   return (
     <div className="bestdogever">
