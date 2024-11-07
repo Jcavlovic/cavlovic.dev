@@ -2,6 +2,7 @@
 @import "./static/styles/projects/Projects.css";
 @import "./static/styles/navbar/NavBar.css";
 @import "./static/styles/landingpage/LandingPage.css";
+@import "bootstrap/dist/css/bootstrap.min.css";
 
 @font-face {
   font-family: "Fira";

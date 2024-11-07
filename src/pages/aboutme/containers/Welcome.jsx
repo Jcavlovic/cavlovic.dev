@@ -1,6 +1,7 @@
 import React from "react";
 import GreetingsImage from "../../../static/images/GradPhoto.jpg";
-
+import Button from "react-bootstrap/Button";
+import "bootstrap/dist/css/bootstrap.min.css";
 /**
  * A functional component that displays a greeting message
  * to the user with a picture of myself.
@@ -20,9 +21,23 @@ const Welcome = () => {
         of Texas San Antonio with a degree in Computer Engineering.
       </p>
       <img src={GreetingsImage} alt="Greetings" />
+      <ContactMe />
     </div>
   );
 };
+
+function ContactMe() {
+  return (
+    <Button
+      href="mailto:9vafxqino@mozmail.com"
+      size="lg"
+      variant="outline-primary"
+    >
+      Contact Me
+    </Button>
+  );
+}
+
 export default Welcome;
 
 // My Experience

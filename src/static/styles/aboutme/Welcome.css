@@ -91,3 +91,8 @@
 .interests p {
   text-align: center;
 }
+
+.welcomepage .btn {
+  margin-left: 7rem;
+  margin-top: 5rem;
+}
