@@ -10,11 +10,11 @@
 .welcomepage h1,
 .welcomepage h2,
 .welcomepage p {
-  color: #ffffff;
-  right: 7vw;
-  font-family: "Fira";
-  top: 240px;
   position: relative;
+  top: 14rem;
+  max-width: 1000px;
+  color: #ffffff;
+  font-family: "Fira";
   text-align: center;
 }
 .welcomepage h1 {
@@ -49,10 +49,11 @@
 .bestdogever h1,
 .bestdogever h2,
 .bestdogever p {
+  max-width: 1000px;
   color: #ffffff;
-  right: -3vw;
+  left: 15rem;
   font-family: "Fira";
-  top: 17vh;
+  top: 16rem;
   position: relative;
   text-align: center;
 }
