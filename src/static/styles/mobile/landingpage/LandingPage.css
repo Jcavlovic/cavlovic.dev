@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
-  /* body.landingpage-body {
+  body.landingpage-body {
     overflow: hidden;
-  } */
+  }
   .aboutme {
     color: #ffffff;
     text-align: center;
@@ -26,5 +26,10 @@
     text-align: center;
     font-size: 14pt;
     margin-top: -5px;
+  }
+  .builtby {
+    position: relative;
+    top: 5.5rem;
+    left: 5rem;
   }
 }
