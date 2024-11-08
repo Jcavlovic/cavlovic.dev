@@ -1,10 +1,10 @@
 @media screen and (min-width: 769px) {
   .navbar-collapse {
-    margin-left: 40rem;
+    margin-left: -31rem;
+    font-size: 14pt;
   }
 
   .nav-link {
-    font-size: 14pt;
     font-family: "Fira";
     color: #000000;
   }
