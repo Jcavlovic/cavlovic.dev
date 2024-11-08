@@ -2,11 +2,10 @@
 @import "./static/styles/desktop/projects/Projects.css";
 @import "./static/styles/desktop/navbar/NavBar.css";
 @import "./static/styles/desktop/landingpage/LandingPage.css";
-@import "bootstrap/dist/css/bootstrap.min.css";
-@import "static/styles/mobile/aboutme/AboutMe.css";
-@import "static/styles/mobile/projects/Projects.css";
+@import "./static/styles/mobile/aboutme/AboutMe.css";
+@import "./static/styles/mobile/projects/Projects.css";
 /* @import "static/styles/mobile/navbar/NavBar.css"; */
-@import "static/styles/mobile/landingpage/LandingPage.css";
+@import "./static/styles/mobile/landingpage/LandingPage.css";
 
 @font-face {
   font-family: "Fira";
