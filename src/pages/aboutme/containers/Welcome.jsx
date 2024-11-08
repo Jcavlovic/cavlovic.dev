@@ -11,6 +11,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Welcome = () => {
   return (
     <div className="welcomepage">
+      <img src={GreetingsImage} alt="Greetings" />
       <h2>Hello, Welcome</h2>
       <h1>This is Me</h1>
       <p>
@@ -20,7 +21,6 @@ const Welcome = () => {
         <br />
         of Texas San Antonio with a degree in Computer Engineering.
       </p>
-      <img src={GreetingsImage} alt="Greetings" />
       <ContactMe />
     </div>
   );

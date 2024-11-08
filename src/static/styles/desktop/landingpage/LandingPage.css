@@ -1,0 +1,27 @@
+@media screen and (min-width: 769px) {
+  .aboutme {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Fira";
+    margin-top: 25rem;
+  }
+
+  .aboutme h1 {
+    margin-top: 40px;
+    font-size: 58pt;
+  }
+
+  .aboutme h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30pt;
+    margin-top: -10px;
+  }
+
+  .aboutme p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 24pt;
+    margin-top: -5px;
+  }
+}
