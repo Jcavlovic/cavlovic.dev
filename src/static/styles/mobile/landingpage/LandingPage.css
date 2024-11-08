@@ -1,9 +1,12 @@
 @media screen and (max-width: 768px) {
+  body.landingpage-body {
+    overflow: hidden;
+  }
   .aboutme {
     color: #ffffff;
     text-align: center;
     font-family: "Fira";
-    margin-top: 15rem;
+    margin-top: 10rem;
   }
 
   .aboutme h1 {
