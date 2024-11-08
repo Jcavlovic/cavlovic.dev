@@ -11,8 +11,9 @@
   .welcomepage h1,
   .welcomepage h2,
   .welcomepage p {
+    right: -5rem;
     position: relative;
-    top: 14rem;
+    bottom: 15rem;
     max-width: 1000px;
     color: #ffffff;
     font-family: "Fira";
@@ -32,7 +33,7 @@
 
   .welcomepage img {
     position: relative;
-    bottom: 8vh;
+    top: 5vh;
     left: 43vw;
     height: 500px;
     border-radius: 8px;
@@ -94,7 +95,8 @@
   }
 
   .welcomepage .btn {
-    margin-left: 7rem;
-    margin-top: 5rem;
+    position: relative;
+    bottom: 12rem;
+    left: 33rem;
   }
 }

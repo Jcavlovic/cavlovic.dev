@@ -1,24 +1,24 @@
-@import "./static/styles/desktop/aboutme/Welcome.css";
-@import "./static/styles/desktop/projects/Projects.css";
-@import "./static/styles/desktop/navbar/NavBar.css";
-@import "./static/styles/desktop/landingpage/LandingPage.css";
-@import "bootstrap/dist/css/bootstrap.min.css";
 @import "./static/styles/mobile/landingpage/LandingPage.css";
 @import "./static/styles/mobile/projects/Projects.css";
 @import "./static/styles/mobile/aboutme/AboutMe.css";
 @import "./static/styles/mobile/navbar/NavBar.css";
+@import "./static/styles/desktop/aboutme/Welcome.css";
+@import "./static/styles/desktop/projects/Projects.css";
+@import "./static/styles/desktop/navbar/NavBar.css";
+@import "./static/styles/desktop/landingpage/LandingPage.css";
 
 @font-face {
   font-family: "Fira";
   src: url("/public/static/fira.ttf");
 }
-
-body {
-  background-image: url("/public/static/background.png");
-  background-color: #030608;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+@media only screen and (min-width: 769px) {
+  body {
+    background-image: url("/public/static/background.png");
+    background-color: #030608;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
 @media only screen and (max-width: 768px) {
