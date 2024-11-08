@@ -1,19 +1,14 @@
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: 14px;
-    padding: 10px;
-  }
-
+@media screen and (max-width: 768px) {
   .aboutme {
     color: #ffffff;
     text-align: center;
     font-family: "Fira";
-    margin-top: 5rem;
+    margin-top: 15rem;
   }
 
   .aboutme h1 {
     margin-top: 40px;
-    font-size: 44pt;
+    font-size: 48pt;
   }
 
   .aboutme h2 {
@@ -26,7 +21,7 @@
   .aboutme p {
     color: #ffffff;
     text-align: center;
-    font-size: 18pt;
+    font-size: 14pt;
     margin-top: -5px;
   }
 }

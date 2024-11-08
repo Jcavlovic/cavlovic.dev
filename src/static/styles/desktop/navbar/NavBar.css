@@ -1,65 +1,67 @@
-.navbar-collapse {
-  margin-left: 40rem;
-}
+@media screen and (min-width: 769px) {
+  .navbar-collapse {
+    margin-left: 40rem;
+  }
 
-.nav-link {
-  font-size: 14pt;
-  font-family: "Fira";
-  color: #000000;
-}
-.nav-link:hover {
-  color: #64d5fd;
-}
+  .nav-link {
+    font-size: 14pt;
+    font-family: "Fira";
+    color: #000000;
+  }
+  .nav-link:hover {
+    color: #64d5fd;
+  }
 
-.dropdown-toggle.nav-link {
-  font-family: "Fira";
-  color: black;
-}
+  .dropdown-toggle.nav-link {
+    font-family: "Fira";
+    color: black;
+  }
 
-.dropdown-toggle.nav-link:hover {
-  color: #64d5fd;
-}
+  .dropdown-toggle.nav-link:hover {
+    color: #64d5fd;
+  }
 
-.dropdown-item {
-  text-align: center;
-  font-family: "Fira";
-  color: black;
-}
+  .dropdown-item {
+    text-align: center;
+    font-family: "Fira";
+    color: black;
+  }
 
-.dropdown-item:hover {
-  color: #64d5fd;
-}
+  .dropdown-item:hover {
+    color: #64d5fd;
+  }
 
-.socialmediaicons {
-  margin-left: 60rem;
-}
+  .socialmediaicons {
+    margin-left: 60rem;
+  }
 
-.dropdown-item-finished {
-  font-weight: bold;
-  font-size: 10pt;
-  text-align: center;
-  font-style: italic;
-  cursor: default;
-}
+  .dropdown-item-finished {
+    font-weight: bold;
+    font-size: 10pt;
+    text-align: center;
+    font-style: italic;
+    cursor: default;
+  }
 
-.dropdown-item-finished:hover {
-  color: #000000;
-  background-color: white;
-}
+  .dropdown-item-finished:hover {
+    color: #000000;
+    background-color: white;
+  }
 
-.dropdown-item-inprogress {
-  font-weight: bold;
-  font-size: 10pt;
-  text-align: center;
-  font-style: italic;
-  cursor: default;
-}
+  .dropdown-item-inprogress {
+    font-weight: bold;
+    font-size: 10pt;
+    text-align: center;
+    font-style: italic;
+    cursor: default;
+  }
 
-.dropdown-item-inprogress:hover {
-  color: #000000;
-  background-color: white;
-}
+  .dropdown-item-inprogress:hover {
+    color: #000000;
+    background-color: white;
+  }
 
-.social-media-links {
-  margin-left: 60rem;
+  .social-media-links {
+    margin-left: 60rem;
+  }
 }

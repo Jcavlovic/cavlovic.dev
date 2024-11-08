@@ -16,6 +16,7 @@ const NavigationBar = () => {
         <img src={coolNameGIF} alt="Cool Name GIF" className="cool-name-gif" />
       </a>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <SocialMediaLinks />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
           <Nav.Link href="./">Home</Nav.Link>
@@ -39,7 +40,6 @@ const NavigationBar = () => {
           <Nav.Link href="./aboutme">About</Nav.Link>
         </Nav>
       </Navbar.Collapse>
-      <SocialMediaLinks />
     </Navbar>
   );
 };
