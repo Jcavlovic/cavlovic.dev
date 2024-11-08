@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
-  body.landingpage-body {
+  /* body.landingpage-body {
     overflow: hidden;
-  }
+  } */
   .aboutme {
     color: #ffffff;
     text-align: center;

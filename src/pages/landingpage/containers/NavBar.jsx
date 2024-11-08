@@ -31,11 +31,11 @@ const NavigationBar = () => {
               In-Progress
             </NavDropdown.Item>
             <NavDropdown.Item href="./projects">cavlovic.dev</NavDropdown.Item>
-            <NavDropdown.Item href="./projects">RAPTORv3</NavDropdown.Item>
+            <NavDropdown.Item href="./projects">RAPTORv2</NavDropdown.Item>
             <NavDropdown.Item className="dropdown-item-finished">
               Finished
             </NavDropdown.Item>
-            <NavDropdown.Item>None</NavDropdown.Item>
+            <NavDropdown.Item>RAPTORv1</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="./aboutme">About</Nav.Link>
         </Nav>

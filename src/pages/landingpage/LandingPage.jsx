@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import NavBar from "./containers/NavBar.jsx";
 import Content from "./containers/Content.jsx";
+import BuiltBy from "./containers/BuiltBy.jsx";
 
 function LandingPage() {
   useEffect(() => {
@@ -13,12 +14,11 @@ function LandingPage() {
   }, []);
 
   return (
-    <body className="landingpage-body">
-      <div>
-        <NavBar />
-        <Content />
-      </div>
-    </body>
+    <div>
+      <NavBar />
+      <Content />
+      <BuiltBy />
+    </div>
   );
 }
 

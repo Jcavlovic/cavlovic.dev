@@ -1,11 +1,12 @@
 @media screen and (min-width: 769px) {
   .welcomepage {
-    margin-left: 36vw;
-    margin-top: 10vh;
+    position: relative;
+    top: 5vh;
+    left: 25%;
     background-color: #070f2b;
     border-radius: 10px;
-    max-width: 50vw;
-    max-height: 50vh;
+    width: 1300px;
+    height: 50vh;
   }
 
   .welcomepage h1,
@@ -40,12 +41,13 @@
   }
 
   .bestdogever {
-    margin-left: 17vw;
-    margin-top: 2vh;
+    position: relative;
+    top: 10vh;
+    left: 25%;
     background-color: #9290c3;
     border-radius: 10px;
-    max-width: 50vw;
-    max-height: 50vh;
+    width: 50vw;
+    height: 47vh;
   }
 
   .bestdogever h1,

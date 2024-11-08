@@ -3,7 +3,10 @@
     color: #ffffff;
     text-align: center;
     font-family: "Fira";
-    margin-top: 25rem;
+    position: fixed;
+    top: 35vh; /* Using vh (viewport height) for consistent vertical positioning */
+    left: 30vw; /* Adjusted to 10vw for more flexible placement */
+    max-width: 80vw; /* Ensures it adapts within different screen widths */
   }
 
   .aboutme h1 {
@@ -23,5 +26,12 @@
     text-align: center;
     font-size: 24pt;
     margin-top: -5px;
+  }
+  .builtby {
+    color: white;
+    position: relative;
+    top: 47vw;
+    left: 84vw;
+    max-width: 300px;
   }
 }

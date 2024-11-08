@@ -1,8 +1,10 @@
 @media screen and (min-width: 769px) {
   .navbar-collapse {
-    margin-left: -85rem;
+    position: relative;
+    left: 20vw;
     font-size: 14pt;
     color: #64d5fd;
+    max-width: 200px;
   }
 
   .nav-link {
@@ -62,6 +64,7 @@
   }
 
   .social-media-links {
-    margin-left: 115rem;
+    position: relative;
+    left: 65vw;
   }
 }
