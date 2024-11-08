@@ -3,8 +3,8 @@
     margin-left: 5ch;
     margin-top: 15vh;
     border-radius: 10px;
-    max-width: 80vw;
-    max-height: 80vh;
+    width: 20rem;
+    height: 45rem;
     margin-bottom: 3rem;
     background-color: #070f2b;
   }
@@ -13,7 +13,7 @@
   .welcomepage h2,
   .welcomepage p {
     position: relative;
-    top: 14rem;
+    bottom: 2rem;
     max-width: 1000px;
     color: #ffffff;
     font-family: "Fira";
@@ -33,6 +33,9 @@
   }
 
   .welcomepage img {
+    position: relative;
+    bottom: 4rem;
+    left: 3rem;
     max-height: 20rem;
     border-radius: 8px;
   }
@@ -91,7 +94,7 @@
   }
 
   .welcomepage .btn {
-    margin-left: 7rem;
-    margin-top: -7rem;
+    margin-left: 5.75rem;
+    margin-top: -1rem;
   }
 }
