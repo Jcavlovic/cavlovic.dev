@@ -1,0 +1,20 @@
+@media screen and (max-width: 768px) {
+  .underconstruction img {
+    max-width: 350px;
+    position: relative;
+    top: 10vh;
+    left: 7vw;
+  }
+
+  .underconstruction h1 {
+    color: white;
+    font-family: "Fira";
+    text-align: center;
+    position: relative;
+    top: 10vh;
+  }
+
+  .projects-body {
+    overflow: hidden;
+  }
+}

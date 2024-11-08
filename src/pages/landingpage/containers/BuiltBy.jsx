@@ -5,7 +5,10 @@ const BuiltBy = () => {
     <div className="builtby">
       <p>
         Created using ReactJS by{" "}
-        <a href="https://github.com/cavlovic"> Jordan Cavlovic</a>
+        <a href="https://www.linkedin.com/in/jordan-cavlovic-507629199/">
+          {" "}
+          Jordan Cavlovic
+        </a>
       </p>
     </div>
   );
