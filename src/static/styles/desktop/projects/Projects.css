@@ -1,0 +1,15 @@
+.underconstruction img {
+  max-width: 50rem;
+  margin-top: 2vw;
+  margin-left: 35vw;
+}
+
+.underconstruction h1 {
+  color: white;
+  font-family: "Fira";
+  text-align: center;
+}
+
+.underconstruction {
+  margin-top: 10vh;
+}

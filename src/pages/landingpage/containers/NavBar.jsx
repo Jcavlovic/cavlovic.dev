@@ -37,9 +37,9 @@ const NavigationBar = () => {
             <NavDropdown.Item>None</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="./aboutme">About</Nav.Link>
-          <SocialMediaLinks />
         </Nav>
       </Navbar.Collapse>
+      <SocialMediaLinks />
     </Navbar>
   );
 };
