@@ -1,4 +1,5 @@
 .nav__list {
+  background: transparent;
   margin-right: 1.5em;
   display: flex;
 }
@@ -12,6 +13,10 @@
 
 .nav__theme {
   margin-top: 0.4em;
+}
+
+.nav.center.nav {
+  background-color: var(--clr-bg-noTrans);
 }
 
 @media (max-width: 600px) {

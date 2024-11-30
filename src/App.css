@@ -11,6 +11,7 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  --clr-bg-noTrans: rgb(252, 252, 252);
   --clr-bg: rgb(252, 252, 252, 0.7);
   --clr-bg-alt: #ffffff;
   --clr-fg: #555;
@@ -25,6 +26,7 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  --clr-bg-noTrans: rgb(35, 40, 62);
   --clr-bg: rgb(35, 40, 62, 0.7);
   --clr-bg-alt: #2a2f4c;
   --clr-fg: #bdbddd;
@@ -45,6 +47,7 @@ main {
 }
 
 .section__title {
+  background: transparent;
   text-align: center;
   margin-bottom: 1em;
   text-transform: uppercase;
