@@ -56,7 +56,7 @@ const Resume = () => (
         <a href="https://cavlovic.dev" target="_blank" rel="noreferrer">
           https://cavlovic.dev
         </a>{" "}
-        <i>October 2024</i>
+        | <i>October 2024</i>
         <br />
         <li>
           Deployed custom portfolio website by leveraging AWS EC2, and Route53
@@ -66,9 +66,9 @@ const Resume = () => (
           Deployed webpages using ReactJS, HTML5, Bootstrap 5.3.3, and jQuery.
         </li>
         <strong>
-          Autonomous Search and Rescue Object Detection Deployment{" "}
-        </strong>
-        <i>November 2024</i>
+          Autonomous Search and Rescue Object Detection Deployment to AWS
+        </strong>{" "}
+        | <i>November 2024</i>
         <li>
           Working on porting and deploying Engineering Capstone Project to AWS
           EC2 instance.
@@ -88,7 +88,7 @@ const Resume = () => (
       <h2>School Projects</h2>
       <br />
       <ul>
-        <strong>Autonomous Search and Rescue Object Detection</strong>{" "}
+        <strong>Autonomous Search and Rescue Object Detection</strong> |{" "}
         <i>August 2023 - May 2024</i>
         <br />
         <li>
@@ -119,7 +119,7 @@ const Resume = () => (
         <strong>
           Machine Learning Inference on NVIDIA Jetson Nano & MSP430
         </strong>{" "}
-        <i>January 2024 - May 2024</i>
+        | <i>January 2024 - May 2024</i>
         <li>
           Collaborated with a team of three to develop code to perform inference
           using the Nvidia Jetson Nano and MSP430, trained and tested it with
@@ -139,7 +139,7 @@ const Resume = () => (
           managing data transfer between SRAM and FRAM to optimize data
           processing.
         </li>
-        <strong>Self-Leveling Tilt Table and Self-Driving RC Car</strong>{" "}
+        <strong>Self-Leveling Tilt Table and Self-Driving RC Car</strong> |{" "}
         <i>January 2024 - May 2024</i>
         <li>Developed embedded devices with the KL25z Freedom Board.</li>
         <li>
@@ -164,18 +164,18 @@ const Resume = () => (
       <h2>Accomplishments</h2>
       <br />
       <ul>
-        <strong>“Honorable Mention”</strong> | UTSA ECE Department{" "}
+        <strong>“Honorable Mention”</strong> | UTSA ECE Department |{" "}
         <i>December 2023</i>
         <br />
         <li>Craps Casino Game Nexys A7 Artix-7 FPGA</li>
         <strong>Professors Recommendation for Graduate School</strong> |
-        Wei-Ming Lin, Ph.D. <i>May 2024</i>
+        Wei-Ming Lin, Ph.D. | <i>May 2024</i>
         <br />
         <li>
           Dr. Lin has personally recommended me for admission to Graduate
           School.
         </li>
-        <strong>Spring 2024 UTSA Student Honor Roll</strong> <i>July 2024</i>
+        <strong>Spring 2024 UTSA Student Honor Roll</strong> | <i>July 2024</i>
         <br />
         <li>18 Credit Hours Semester GPA 3.66</li>
       </ul>
@@ -186,7 +186,7 @@ const Resume = () => (
       <h2>Professional Experience</h2>
       <br />
       <ul>
-        <strong>Bartender</strong> | Red Robin | San Antonio, TX{" "}
+        <strong>Bartender</strong> | Red Robin | San Antonio, TX |{" "}
         <i>June 2015 - July 2024</i>
         <br />
         <li>
@@ -197,7 +197,7 @@ const Resume = () => (
           Trained new hires to prepare drinks properly, keep bar area clean and
           organized, and adhere to company policy.
         </li>
-        <strong>Photographer</strong> | Lujack’s Auto Plaza | Davenport, IA
+        <strong>Photographer</strong> | Lujack’s Auto Plaza | Davenport, IA |{" "}
         <i>January 2013 - May 2015</i>
         <br />
         <li>
@@ -205,8 +205,8 @@ const Resume = () => (
           proficient in operating DSLR cameras.
         </li>
         <li>Worked both independently and within a team environment.</li>
-        <strong>Line Cook</strong> | Applebee’s Bar and Grill | Davenport, IA
-        <i>ay 2010 - January 2013</i>
+        <strong>Line Cook</strong> | Applebee’s Bar and Grill | Davenport, IA |{" "}
+        <i>May 2010 - January 2013</i>
         <br />
         <li>
           Prepared and cooked a variety of menu items using standardized recipes
