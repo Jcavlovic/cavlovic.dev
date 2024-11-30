@@ -1,7 +1,8 @@
 import React from "react";
+import "./Resume.css";
 
 const Resume = () => (
-  <div>
+  <div className="resume">
     <h1>Jordan Cavlovic</h1>
     <p className="contact-info">
       Little Elm, TX |{" "}

@@ -1,0 +1,12 @@
+.resume {
+  font-family: "Poppins", sans-serif;
+}
+
+.resume a {
+  color: #0000ff;
+}
+
+.resume li {
+  text-align: justify;
+  list-style-type: circle;
+}
