@@ -55,7 +55,7 @@ const Resume = () => (
         <strong>Personal Portfolio Website</strong>{" "}
         <a href="https://cavlovic.dev" target="_blank" rel="noreferrer">
           https://cavlovic.dev
-        </a>
+        </a>{" "}
         <i>October 2024</i>
         <br />
         <li>
@@ -66,7 +66,7 @@ const Resume = () => (
           Deployed webpages using ReactJS, HTML5, Bootstrap 5.3.3, and jQuery.
         </li>
         <strong>
-          Autonomous Search and Rescue Object Detection Deployment
+          Autonomous Search and Rescue Object Detection Deployment{" "}
         </strong>
         <i>November 2024</i>
         <li>
@@ -88,8 +88,8 @@ const Resume = () => (
       <h2>School Projects</h2>
       <br />
       <ul>
-        <strong>Autonomous Search and Rescue Object Detection</strong> (
-        <i>August 2023 - May 2024</i>)
+        <strong>Autonomous Search and Rescue Object Detection</strong>{" "}
+        <i>August 2023 - May 2024</i>
         <br />
         <li>
           Senior design project focused on creating an autonomous object
@@ -139,7 +139,7 @@ const Resume = () => (
           managing data transfer between SRAM and FRAM to optimize data
           processing.
         </li>
-        <strong>Self-Leveling Tilt Table and Self-Driving RC Car</strong>
+        <strong>Self-Leveling Tilt Table and Self-Driving RC Car</strong>{" "}
         <i>January 2024 - May 2024</i>
         <li>Developed embedded devices with the KL25z Freedom Board.</li>
         <li>
@@ -164,24 +164,20 @@ const Resume = () => (
       <h2>Accomplishments</h2>
       <br />
       <ul>
+        <strong>“Honorable Mention”</strong> | UTSA ECE Department{" "}
+        <i>December 2023</i>
+        <br />
+        <li>Craps Casino Game Nexys A7 Artix-7 FPGA</li>
+        <strong>Professors Recommendation for Graduate School</strong> |
+        Wei-Ming Lin, Ph.D. <i>May 2024</i>
+        <br />
         <li>
-          <strong>“Honorable Mention”</strong> | UTSA ECE Department{" "}
-          <i>December 2023</i>
-          <br />
-          Craps Casino Game Nexys A7 Artix-7 FPGA
-        </li>
-        <li>
-          <strong>Professors Recommendation for Graduate School</strong> |
-          Wei-Ming Lin, Ph.D. <i>May 2024</i>
-          <br />
           Dr. Lin has personally recommended me for admission to Graduate
           School.
         </li>
-        <li>
-          <strong>Spring 2024 UTSA Student Honor Roll</strong> <i>July 2024</i>
-          <br />
-          18 Credit Hours Semester GPA 3.66
-        </li>
+        <strong>Spring 2024 UTSA Student Honor Roll</strong> <i>July 2024</i>
+        <br />
+        <li>18 Credit Hours Semester GPA 3.66</li>
       </ul>
     </div>
     <br />
