@@ -4,7 +4,7 @@ import "./Resume.css";
 const Resume = () => (
   <div className="resume">
     <h1>Jordan Cavlovic</h1>
-    <p className="contact-info">
+    <p style={{ textAlign: "center" }} className="contact-info">
       Little Elm, TX |{" "}
       <a href="mailto:jcavlovic91@gmail.com">jcavlovic91@gmail.com</a> |
       210-630-9871 |{" "}
@@ -12,27 +12,30 @@ const Resume = () => (
         https://cavlovic.dev
       </a>
     </p>
+    <br />
 
-    <div className="section">
+    <div className="education">
+      <br />
       <h2>Education</h2>
+      <br />
       <ul>
-        <li>
-          <strong>Bachelor of Science in Computer Engineering</strong> |
-          University of Texas San Antonio | San Antonio, TX
-          <br />
-          <i>&nbsp;January 2022 - May 2024</i>
-        </li>
-        <li>
-          <strong>Associate of Science in Computer Science</strong> | Northwest
-          Vista Community College | San Antonio, TX
-          <br />
-          <i> December 2019 - December 2021 </i>
-        </li>
+        <strong>Bachelor of Science in Computer Engineering</strong> |
+        University of Texas San Antonio | San Antonio, TX
+        <br />
+        <i>January 2022 - May 2024</i>
+        <br />
+        <strong>Associate of Science in Computer Science</strong> | Northwest
+        Vista Community College | San Antonio, TX
+        <br />
+        <i> December 2019 - December 2021 </i>
       </ul>
     </div>
+    <br />
 
-    <div className="section">
+    <div className="skills">
+      <br />
       <h2>Key Skills</h2>
+      <br />
       <ul>
         <li>Python | C# | Java | C/C++ | JavaScript | HTML/CSS</li>
         <li>
@@ -43,145 +46,185 @@ const Resume = () => (
         <li>Leadership | Problem Solving | Communication | Adaptability</li>
       </ul>
     </div>
+    <br />
 
-    <div className="section">
+    <div className="projects">
       <h2>Personal Projects</h2>
+      <br />
       <ul>
-        <li>
-          <strong>Personal Portfolio Website</strong>{" "}
-          <a href="https://cavlovic.dev" target="_blank" rel="noreferrer">
-            https://cavlovic.dev
-          </a>
-          (<i>October 2024</i>)
-          <br />
-          <li>
-            Deployed custom portfolio website by leveraging AWS EC2, and Route53
-            to deploy website sing NGINX web hosting.
-          </li>
-          <li>
-            Deployed webpages using ReactJS, HTML5, Bootstrap 5.3.3, and jQuery.
-          </li>
-        </li>
-        <li>
-          <strong>
-            Autonomous Search and Rescue Object Detection Deployment
-          </strong>{" "}
-          (<i>November 2024</i>)
-          <li>
-            Working on porting and deploying Engineering Capstone Project to AWS
-            EC2 instance.
-          </li>
-          <li>
-            Leverage AWS GPU instances to handle object detection inference.
-          </li>
-          <li>
-            Allow users to choose any video from YouTube to run inference using
-            a custom model developed during the Capstone Project.
-          </li>
-        </li>
-      </ul>
-    </div>
-
-    <div className="section">
-      <h2>School Projects</h2>
-      <ul>
-        <li>
-          <strong>Autonomous Search and Rescue Object Detection</strong> (
-          <i>August 2023 - May 2024</i>)
-          <br />
-          <li>
-            Senior design project focused on creating an autonomous object
-            detection device for search and rescue operations.
-          </li>
-          <li>
-            Managed project meetings, delegated tasks, and supported team
-            members.
-          </li>
-          <li>
-            Designed an object detection system with YOLOv8 and SAHI and
-            assisted with GUI development and Flask API.
-          </li>
-          <li>
-            Contributed to AI model training, as well as cleaning and prunning
-            dataset.
-          </li>
-        </li>
-        <li>
-          <strong>
-            Machine Learning Inference on NVIDIA Jetson Nano & MSP430
-          </strong>{" "}
-          (<i>January 2024 - May 2024</i>)
-          <li>
-            Collaborated to perform inference using the MNIST dataset on NVIDIA
-            Jetson Nano and MSP430.
-          </li>
-          <li>
-            Developed code in Python, C, and C++ for weight calculation and
-            inference.
-          </li>
-          <li>
-            Optimized GPU performance on Jetson Nano using the CC compiler.
-          </li>
-        </li>
-        <li>
-          <strong>Self-Leveling Tilt Table and Self-Driving RC Car</strong> (
-          <i>January 2024 - May 2024</i>)
-          <li>Developed embedded devices with the KL25z Freedom Board.</li>
-          <li>
-            Designed a tilt table with automatic adjustment using servos and a
-            touchpad.
-          </li>
-          <li>
-            Programmed an RC car to detect and stay centered on a track using C
-            programing language.
-          </li>
-        </li>
-      </ul>
-    </div>
-
-    <div className="section">
-      <h2>Accomplishments</h2>
-      <ul>
-        <li>“Honorable Mention” | UTSA ECE Department (December 2023)</li>
-        <li>Craps Casino Game Nexys A7 Artix-7 FPGA</li>
-        <li>
-          Professors Recommendation for Graduate School | Wei-Ming Lin, Ph.D. (
-          <i>May 2024</i>)
-        </li>
-        <li>
-          Spring 2024 UTSA Student Honor Roll | 18 Credit Hours Semester (July
-          2024)
-        </li>
-      </ul>
-    </div>
-
-    <div className="section">
-      <h2>Professional Experience</h2>
-      <ul>
-        <strong>Bartender</strong> | Red Robin | San Antonio, TX (June 2015 –
-        July 2024)
+        <strong>Personal Portfolio Website</strong>{" "}
+        <a href="https://cavlovic.dev" target="_blank" rel="noreferrer">
+          https://cavlovic.dev
+        </a>
+        <i>October 2024</i>
         <br />
         <li>
-          Actively listened to client needs and trained new hires in adherence
-          to company policy.
+          Deployed custom portfolio website by leveraging AWS EC2, and Route53
+          to deploy website using NGINX web hosting.
+        </li>
+        <li>
+          Deployed webpages using ReactJS, HTML5, Bootstrap 5.3.3, and jQuery.
+        </li>
+        <strong>
+          Autonomous Search and Rescue Object Detection Deployment
+        </strong>
+        <i>November 2024</i>
+        <li>
+          Working on porting and deploying Engineering Capstone Project to AWS
+          EC2 instance.
+        </li>
+        <li>
+          Leverage AWS GPU instances to handle object detection inference.
+        </li>
+        <li>
+          Allow users to choose any video from YouTube to run inference using a
+          custom model developed during the Capstone Project.
+        </li>
+      </ul>
+    </div>
+    <br />
+
+    <div className="projects">
+      <h2>School Projects</h2>
+      <br />
+      <ul>
+        <strong>Autonomous Search and Rescue Object Detection</strong> (
+        <i>August 2023 - May 2024</i>)
+        <br />
+        <li>
+          Senior design project focused on creating an autonomous object
+          detection device for search and rescue operations.
+        </li>
+        <li>
+          Managed the project by organizing team meetings, delegating weekly
+          tasks, and provided support to team members when they encountered
+          obstacles.
+        </li>
+        <li>
+          Designed the object detection system by implementing YOLOv8 with
+          Sliced Aided Hyper Inferencing for far, and small object detection and
+          assisted with GUI development written in HTML, CSS, and JavaScript
+          along with Flask API for web hosting.
+        </li>
+        <li>
+          Contributed to the AI model by curating thousands of custom photos to
+          build a unique dataset, annotated them using Roboflow.com and assisted
+          with selecting training parameters for YOLOv8 and SAHI.
+        </li>
+        <li>
+          Optimized hardware configuration for smooth operation by disabling
+          unnecessary services and configuring a custom service to execute
+          operation upon boot.
+        </li>
+        <strong>
+          Machine Learning Inference on NVIDIA Jetson Nano & MSP430
+        </strong>{" "}
+        <i>January 2024 - May 2024</i>
+        <li>
+          Collaborated with a team of three to develop code to perform inference
+          using the Nvidia Jetson Nano and MSP430, trained and tested it with
+          the MNIST dataset.
+        </li>
+        <li>
+          Written in C for the Ti MSP430, C++ for the Nvidia Jetson Nano, and
+          Python for calculating the weights and biases.
+        </li>
+        <li>
+          Utilized the CC compiler to run inference directly on the Nvidia
+          Jetson's GPU, harnessing its parallel processing power for optimal
+          performance.
+        </li>
+        <li>
+          Utilized C to perform inference tasks on the MSP430, efficiently
+          managing data transfer between SRAM and FRAM to optimize data
+          processing.
+        </li>
+        <strong>Self-Leveling Tilt Table and Self-Driving RC Car</strong>
+        <i>January 2024 - May 2024</i>
+        <li>Developed embedded devices with the KL25z Freedom Board.</li>
+        <li>
+          Collaborated with a team of four to develop two embedded devices
+          utilizing the KL25z Freedom Board.
+        </li>
+        <li>
+          Integrated a touch pad along with two servos onto a table to allow for
+          the change in pitch on the X and Y axis to ensure automatic adjustment
+          of a steel ball to the center of the table.
+        </li>
+        <li>
+          Utilized the Freedom Board to control a car on a track, incorporated a
+          camera for detecting the barrier of the track and adjusting the
+          direction of the wheels to ensure the car stayed centered.
+        </li>
+      </ul>
+    </div>
+    <br />
+
+    <div className="accomplishments">
+      <h2>Accomplishments</h2>
+      <br />
+      <ul>
+        <li>
+          <strong>“Honorable Mention”</strong> | UTSA ECE Department{" "}
+          <i>December 2023</i>
+          <br />
+          Craps Casino Game Nexys A7 Artix-7 FPGA
+        </li>
+        <li>
+          <strong>Professors Recommendation for Graduate School</strong> |
+          Wei-Ming Lin, Ph.D. <i>May 2024</i>
+          <br />
+          Dr. Lin has personally recommended me for admission to Graduate
+          School.
+        </li>
+        <li>
+          <strong>Spring 2024 UTSA Student Honor Roll</strong> <i>July 2024</i>
+          <br />
+          18 Credit Hours Semester GPA 3.66
+        </li>
+      </ul>
+    </div>
+    <br />
+
+    <div className="experience">
+      <h2>Professional Experience</h2>
+      <br />
+      <ul>
+        <strong>Bartender</strong> | Red Robin | San Antonio, TX{" "}
+        <i>June 2015 - July 2024</i>
+        <br />
+        <li>
+          Actively listened and asked clarifying questions to ensure a deep
+          understanding of client goals.
+        </li>
+        <li>
+          Trained new hires to prepare drinks properly, keep bar area clean and
+          organized, and adhere to company policy.
         </li>
         <strong>Photographer</strong> | Lujack’s Auto Plaza | Davenport, IA
-        (January 2013 - May 2015)
+        <i>January 2013 - May 2015</i>
         <br />
         <li>
-          Skilled in Adobe Photoshop, DSLR cameras, and team collaboration.
+          Skilled in post-production, photo-editing using Adobe Photoshop, and
+          proficient in operating DSLR cameras.
         </li>
+        <li>Worked both independently and within a team environment.</li>
         <strong>Line Cook</strong> | Applebee’s Bar and Grill | Davenport, IA
-        (May 2010 - January 2013)
+        <i>ay 2010 - January 2013</i>
         <br />
         <li>
-          Prepared menu items, maintained food safety, and collaborated
-          effectively with the kitchen team.
+          Prepared and cooked a variety of menu items using standardized recipes
+          and ensure consistency in taste and quality.
+        </li>
+        <li>
+          Adhered to strict food safety and sanitation standards and
+          collaborated effectively with the kitchen team.
         </li>
       </ul>
     </div>
+    <br />
 
-    <div className="section">
+    <div className="references">
       <h2>References</h2>
       <ul>
         <li>

@@ -7,10 +7,20 @@
 }
 
 .resume li {
+  margin-left: 1em;
   text-align: justify;
   list-style-type: circle;
 }
 
-.tab {
-  tab-size: 8;
+.resume h2 {
+  text-align: center;
+}
+
+.resume references {
+  text-align: center;
+}
+
+.resume h1 {
+  color: #2978b5;
+  text-align: center;
 }

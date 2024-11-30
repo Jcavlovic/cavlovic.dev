@@ -2,12 +2,14 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import * as React from "react";
 import Box from "@mui/material/Box";
+
 import Modal from "@mui/material/Modal";
 import "./About.css";
 import { about } from "../../portfolio";
 import Resume from "../Resume/Resume";
 
 const style = {
+  wordWrap: "normal",
   position: "absolute",
   top: "50%",
   left: "50%",
