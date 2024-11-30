@@ -1,9 +1,15 @@
 .about {
   flex-direction: column;
   margin-top: 3em;
+  opacity: 0.2;
+}
+
+.about.center {
+  opacity: 0.9;
 }
 
 .about__name {
+  opacity: 0.8;
   color: var(--clr-primary);
 }
 

@@ -6,8 +6,13 @@
 }
 
 .light {
-  --clr-bg: #fcfcfc;
-  --clr-bg-alt: #fff;
+  background-image: url(../public/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  --clr-bg: rgb(252, 252, 252, 0.5);
+  --clr-bg-alt: #ffffff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
   --clr-primary: #2978b5;
@@ -15,7 +20,12 @@
 }
 
 .dark {
-  --clr-bg: #23283e;
+  background-image: url(../public/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  --clr-bg: rgb(35, 40, 62, 0.7);
   --clr-bg-alt: #2a2f4c;
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
