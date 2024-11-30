@@ -30,10 +30,8 @@ const Resume = () => (
         <i> December 2019 - December 2021 </i>
       </ul>
     </div>
-    <br />
 
     <div className="skills">
-      <br />
       <h2>Key Skills</h2>
       <br />
       <ul>
@@ -65,6 +63,7 @@ const Resume = () => (
         <li>
           Deployed webpages using ReactJS, HTML5, Bootstrap 5.3.3, and jQuery.
         </li>
+        <br />
         <strong>
           Autonomous Search and Rescue Object Detection Deployment to AWS
         </strong>{" "}
@@ -116,6 +115,7 @@ const Resume = () => (
           unnecessary services and configuring a custom service to execute
           operation upon boot.
         </li>
+        <br />
         <strong>
           Machine Learning Inference on NVIDIA Jetson Nano & MSP430
         </strong>{" "}
@@ -139,6 +139,7 @@ const Resume = () => (
           managing data transfer between SRAM and FRAM to optimize data
           processing.
         </li>
+        <br />
         <strong>Self-Leveling Tilt Table and Self-Driving RC Car</strong> |{" "}
         <i>January 2024 - May 2024</i>
         <li>Developed embedded devices with the KL25z Freedom Board.</li>
@@ -222,6 +223,7 @@ const Resume = () => (
 
     <div className="references">
       <h2>References</h2>
+      <br />
       <ul>
         <li>
           <strong>Luis Martinez</strong> | Classmate
