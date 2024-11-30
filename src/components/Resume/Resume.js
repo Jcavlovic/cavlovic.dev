@@ -20,13 +20,13 @@ const Resume = () => (
           <strong>Bachelor of Science in Computer Engineering</strong> |
           University of Texas San Antonio | San Antonio, TX
           <br />
-          January 2022 - May 2024
+          <i>&nbsp;January 2022 - May 2024</i>
         </li>
         <li>
           <strong>Associate of Science in Computer Science</strong> | Northwest
           Vista Community College | San Antonio, TX
           <br />
-          December 2019 - December 2021
+          <i> December 2019 - December 2021 </i>
         </li>
       </ul>
     </div>
@@ -51,27 +51,33 @@ const Resume = () => (
           <strong>Personal Portfolio Website</strong>{" "}
           <a href="https://cavlovic.dev" target="_blank" rel="noreferrer">
             https://cavlovic.dev
-          </a>{" "}
-          (October 2024)
+          </a>
+          (<i>October 2024</i>)
           <br />
-          Deployed custom portfolio website by leveraging AWS EC2, and Route53
-          to deploy website using NGINX web hosting.
-          <br />
-          Deployed webpages using ReactJS, HTML5, Bootstrap 5.3.3, and jQuery.
+          <li>
+            Deployed custom portfolio website by leveraging AWS EC2, and Route53
+            to deploy website sing NGINX web hosting.
+          </li>
+          <li>
+            Deployed webpages using ReactJS, HTML5, Bootstrap 5.3.3, and jQuery.
+          </li>
         </li>
         <li>
           <strong>
             Autonomous Search and Rescue Object Detection Deployment
           </strong>{" "}
-          (November 2024)
-          <br />
-          Working on porting and deploying Engineering Capstone Project to AWS
-          EC2 instance.
-          <br />
-          Leverage AWS GPU instances to handle object detection inference.
-          <br />
-          Allow users to choose any video from YouTube to run inference using a
-          custom model developed during the Capstone Project.
+          (<i>November 2024</i>)
+          <li>
+            Working on porting and deploying Engineering Capstone Project to AWS
+            EC2 instance.
+          </li>
+          <li>
+            Leverage AWS GPU instances to handle object detection inference.
+          </li>
+          <li>
+            Allow users to choose any video from YouTube to run inference using
+            a custom model developed during the Capstone Project.
+          </li>
         </li>
       </ul>
     </div>
@@ -80,47 +86,55 @@ const Resume = () => (
       <h2>School Projects</h2>
       <ul>
         <li>
-          <strong>Autonomous Search and Rescue Object Detection</strong> (August
-          2023 - May 2024)
+          <strong>Autonomous Search and Rescue Object Detection</strong> (
+          <i>August 2023 - May 2024</i>)
           <br />
-          Program Manager & Software Engineer | ECE Senior Design I & II
-          <br />
-          Senior design project focused on creating an autonomous object
-          detection device for search and rescue operations.
-          <br />
-          Managed project meetings, delegated tasks, and supported team members.
-          <br />
-          Designed an object detection system with YOLOv8 and SAHI and assisted
-          with GUI development and Flask API.
-          <br />
-          Contributed to AI model training and dataset preparation.
+          <li>
+            Senior design project focused on creating an autonomous object
+            detection device for search and rescue operations.
+          </li>
+          <li>
+            Managed project meetings, delegated tasks, and supported team
+            members.
+          </li>
+          <li>
+            Designed an object detection system with YOLOv8 and SAHI and
+            assisted with GUI development and Flask API.
+          </li>
+          <li>
+            Contributed to AI model training, as well as cleaning and prunning
+            dataset.
+          </li>
         </li>
         <li>
           <strong>
             Machine Learning Inference on NVIDIA Jetson Nano & MSP430
           </strong>{" "}
-          (January 2024 - May 2024)
-          <br />
-          Collaborated to perform inference using the MNIST dataset on NVIDIA
-          Jetson Nano and MSP430.
-          <br />
-          Developed code in Python, C, and C++ for weight calculation and
-          inference.
-          <br />
-          Optimized GPU performance on Jetson Nano using the CC compiler.
+          (<i>January 2024 - May 2024</i>)
+          <li>
+            Collaborated to perform inference using the MNIST dataset on NVIDIA
+            Jetson Nano and MSP430.
+          </li>
+          <li>
+            Developed code in Python, C, and C++ for weight calculation and
+            inference.
+          </li>
+          <li>
+            Optimized GPU performance on Jetson Nano using the CC compiler.
+          </li>
         </li>
         <li>
-          <strong>Self-Leveling Tilt Table and Self-Driving RC Car</strong>{" "}
-          (January 2024 - May 2024)
-          <br />
-          Developed embedded devices with the KL25z Freedom Board.
-          <br />
-          Designed a tilt table with automatic adjustment using servos and a
-          touchpad.
-          <br />
-          Programmed an RC car to detect and stay centered on a track.
-          <br />
-          Written in C programming language.
+          <strong>Self-Leveling Tilt Table and Self-Driving RC Car</strong> (
+          <i>January 2024 - May 2024</i>)
+          <li>Developed embedded devices with the KL25z Freedom Board.</li>
+          <li>
+            Designed a tilt table with automatic adjustment using servos and a
+            touchpad.
+          </li>
+          <li>
+            Programmed an RC car to detect and stay centered on a track using C
+            programing language.
+          </li>
         </li>
       </ul>
     </div>
@@ -131,8 +145,8 @@ const Resume = () => (
         <li>“Honorable Mention” | UTSA ECE Department (December 2023)</li>
         <li>Craps Casino Game Nexys A7 Artix-7 FPGA</li>
         <li>
-          Professors Recommendation for Graduate School | Wei-Ming Lin, Ph.D.
-          (May 2024)
+          Professors Recommendation for Graduate School | Wei-Ming Lin, Ph.D. (
+          <i>May 2024</i>)
         </li>
         <li>
           Spring 2024 UTSA Student Honor Roll | 18 Credit Hours Semester (July
@@ -144,23 +158,23 @@ const Resume = () => (
     <div className="section">
       <h2>Professional Experience</h2>
       <ul>
+        <strong>Bartender</strong> | Red Robin | San Antonio, TX (June 2015 –
+        July 2024)
+        <br />
         <li>
-          <strong>Bartender</strong> | Red Robin | San Antonio, TX (June 2015 –
-          July 2024)
-          <br />
           Actively listened to client needs and trained new hires in adherence
           to company policy.
         </li>
+        <strong>Photographer</strong> | Lujack’s Auto Plaza | Davenport, IA
+        (January 2013 - May 2015)
+        <br />
         <li>
-          <strong>Photographer</strong> | Lujack’s Auto Plaza | Davenport, IA
-          (January 2013 - May 2015)
-          <br />
           Skilled in Adobe Photoshop, DSLR cameras, and team collaboration.
         </li>
+        <strong>Line Cook</strong> | Applebee’s Bar and Grill | Davenport, IA
+        (May 2010 - January 2013)
+        <br />
         <li>
-          <strong>Line Cook</strong> | Applebee’s Bar and Grill | Davenport, IA
-          (May 2010 - January 2013)
-          <br />
           Prepared menu items, maintained food safety, and collaborated
           effectively with the kitchen team.
         </li>
