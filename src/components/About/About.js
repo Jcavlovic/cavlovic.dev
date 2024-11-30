@@ -67,7 +67,12 @@ const About = () => {
             )}
           </>
         )}
-        <Modal open={open} onClose={handleClose} aria-labelledby="resume-title">
+        <Modal
+          className="resume-modal"
+          open={open}
+          onClose={handleClose}
+          aria-labelledby="resume-title"
+        >
           <Box sx={style}>
             <Resume />
           </Box>

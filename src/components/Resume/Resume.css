@@ -24,3 +24,11 @@
   color: #2978b5;
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  .resume {
+    margin: 1em auto;
+    padding: 1em;
+    max-width: 100%; /* Adjust width for better scaling */
+  }
+}
