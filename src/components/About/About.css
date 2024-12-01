@@ -6,7 +6,16 @@
 .about__name {
   color: var(--clr-primary);
 }
-
+.about.center,
+.section.projects,
+.section.skills,
+.section.contact {
+  max-width: 1100px;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: var(--clr-bg-noTrans);
+}
 .about__role {
   margin-top: 1.2em;
 }
@@ -47,7 +56,15 @@
   margin-right: 0;
   margin-left: 0.5rem;
 }
-
+.project {
+  background-color: var(--clr-bg);
+}
+.projects h3,
+.projects h6,
+.projects p,
+.project__stack {
+  background: transparent;
+}
 @media (max-width: 600px) {
   .app .about {
     margin-top: 2em;

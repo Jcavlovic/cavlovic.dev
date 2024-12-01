@@ -18,13 +18,11 @@ const App = () => {
     <div id="top" className={`${themeName} app`}>
       <Header />
 
-      <main>
-        <About />
-        <CurrentProjects />
-        <FinishedProjects />
-        <Skills />
-        <Contact />
-      </main>
+      <About />
+      <CurrentProjects />
+      <FinishedProjects />
+      <Skills />
+      <Contact />
 
       <ScrollToTop />
       <Footer />
