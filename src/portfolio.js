@@ -17,26 +17,14 @@ const about = {
   },
 };
 
-const projects = [
+const currentprojects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: "R.A.P.T.O.R. v1.0",
-    description: "UTSA Engineering Capstone Project on NVIDIA Jetson ORIN",
-    stack: ["YOLOv8/SAHI", "Python3.11", "JavaScript", "FlaskAPI"],
-    sourceCode: "https://github.com/Jcavlovic/raptorv1",
-    livePreview: "",
-  },
-  {
-    name: "Cavlovic.dev",
-    description: "Personal Portfolio Website",
-    stack: ["AWS EC2", "HTML/CSS", "JavaScript", "ReactJS"],
-    sourceCode: "https://github.com/Jcavlovic/cavlovic.dev",
-    livePreview: "https://cavlovic.dev",
-  },
-  {
     name: "R.A.P.T.O.R. v2.0",
-    description: "UTSA Engineering Capstone Project on AWS",
+    date: "November 2024",
+    description:
+      "Autonomous Search and Rescue Object Detection using YOLOv8 and SAHI running live inference on AWS EC2 instance and ultilizeing AWS GPU instances to run inference on user selected videos.",
     stack: [
       "YOLOv8/SAHI",
       "JavaScript",
@@ -45,12 +33,94 @@ const projects = [
       "MongoSQL",
       "ReactJS",
       "Docker",
+      "Machine Learning",
     ],
     sourceCode: "https://github.com/Jcavlovic/raptorv3",
     livePreview: "",
   },
 ];
-
+const finishedprojects = [
+  // projects can be added an removed
+  // if there are no projects, Projects section won't show up
+  {
+    name: "R.A.P.T.O.R. v1.0",
+    date: "May 2024",
+    description:
+      "Autonomous Search and Rescue Object Detection using YOLOv8 and SAHI running live inference on Nvidia Jetson Orin Nano",
+    stack: [
+      "YOLOv8/SAHI",
+      "Python3.11",
+      "JavaScript",
+      "FlaskAPI",
+      "HTML/CSS",
+      "Pytorch",
+      "Machine Learning",
+    ],
+    sourceCode: "https://github.com/Jcavlovic/raptorv1",
+    livePreview: "",
+  },
+  {
+    name: "Cavlovic.dev",
+    date: "October 2024",
+    description:
+      "Personal Portfolio Website developed with ReactJS, Bootstrap, and AWS",
+    stack: [
+      "AWS EC2",
+      "AWS Route 53",
+      "Bootstrap",
+      "HTML/CSS",
+      "JavaScript",
+      "ReactJS",
+    ],
+    sourceCode: "https://github.com/Jcavlovic/cavlovic.dev",
+    livePreview: "https://cavlovic.dev",
+  },
+  {
+    name: "Machine Learning Inference on NVIDIA Jetson Nano & MSP430",
+    date: "May 2024",
+    description:
+      "Training and Inference on the MINST Dataset using NVIDIA Jetson Nano and MSP430",
+    stack: ["Python3.11", "C", "NVCC", "Machine Learning"],
+    sourceCode: "",
+    livePreview: "",
+  },
+  {
+    name: "Self-Leveling Tilt Table and Self-Driving RC Car",
+    date: "May 2024",
+    description:
+      "As a team, we developed two embedded devices using the KL25z Freedom Board, integrating a touch pad and servos for automatic X and Y axis pitch adjustment. Additionally, we created a self-driving RC car using the MSP430, servos, and a optical sensor.",
+    stack: ["C", "MCUXpresso IDE", "Optical Sensors", "Servo Motors"],
+    sourceCode: "https://github.com/Jcavlovic/cavlovic.dev",
+    livePreview: "https://cavlovic.dev",
+  },
+  {
+    name: "Autonomous Water Feeding System using Raspberry Pi and Arduino",
+    date: "May 2024",
+    description:
+      "As a team, we successfully designed and implemented an autonomous water feeding system, demonstrating potential vulnerabilities through DDoS attacks and MitM tactics, using Arduino and RaspberryPi programming languages.",
+    stack: [
+      "Python3.11",
+      "C",
+      "A2D/D2A",
+      "Sensors",
+      "MQTT Protocol",
+      "Water Pump",
+      "Water Level Sensor",
+      "Soil Moisture Sensor",
+    ],
+    sourceCode: "",
+    livePreview: "",
+  },
+  {
+    name: "Craps Casino Game Nexys A7 Artix-7 FPGA",
+    date: "December 2023",
+    description:
+      "Independently developed Craps casino game on Nexys A7 Artix-7 FPGA Trainer Board, designing module for clock speeds, dice simulation, display setup, and game logic.",
+    stack: ["FPGAs", "Verilog", "Xilinx Vivado"],
+    sourceCode: "",
+    livePreview: "",
+  },
+];
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
@@ -74,4 +144,4 @@ const contact = {
   email: "jcavlovic91@gmail.com",
 };
 
-export { header, about, projects, skills, contact };
+export { header, about, currentprojects, finishedprojects, skills, contact };
