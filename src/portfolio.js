@@ -90,8 +90,8 @@ const finishedprojects = [
     description:
       "As a team, we developed two embedded devices using the KL25z Freedom Board, integrating a touch pad and servos for automatic X and Y axis pitch adjustment. Additionally, we created a self-driving RC car using the MSP430, servos, and a optical sensor.",
     stack: ["C", "MCUXpresso IDE", "Optical Sensors", "Servo Motors"],
-    sourceCode: "https://github.com/Jcavlovic/cavlovic.dev",
-    livePreview: "https://cavlovic.dev",
+    sourceCode: "",
+    livePreview: "",
   },
   {
     name: "Autonomous Water Feeding System using Raspberry Pi and Arduino",
