@@ -163,4 +163,29 @@ main {
   .section {
     margin-top: 4em;
   }
+  .dark {
+    background-image: none;
+    background-size: contain;
+    background-attachment: scroll;
+    background-position: top;
+  }
+  body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  /* Add the stationary background as a pseudo-element */
+  body::before {
+    content: ""; /* Creates an empty pseudo-element */
+    position: fixed; /* Keeps it fixed on the screen */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    background-image: url(../public/background_small.png); /* Path to your background image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center; /* Centers the image */
+    background-size: cover; /* Ensures the image covers the viewport */
+    z-index: -1; /* Places it behind all content */
+  }
 }
