@@ -17,6 +17,7 @@
 
 .nav.center.nav {
   background-color: var(--clr-bg-noTrans);
+  background: transparent;
 }
 
 @media (max-width: 600px) {

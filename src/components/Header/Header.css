@@ -5,6 +5,9 @@
   margin: 0 auto;
   justify-content: space-between;
 }
+.header.center {
+  background-color: rgb(35, 40, 62, 0.9);
+}
 
 @media (max-width: 600px) {
   .header {

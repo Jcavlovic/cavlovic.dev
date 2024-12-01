@@ -29,7 +29,9 @@
   margin-right: 1em;
 }
 
-.about.center {
+.about h1,
+.about h2,
+.about p {
   background: transparent;
 }
 
@@ -37,7 +39,16 @@
   .app .about {
     margin-top: 2em;
   }
-  .MuiBackdrop-root {
-    max-width: 100%;
+  .MuiBackdrop-root
+    MuiModal-backdrop
+    css-4nmryk-MuiBackdrop-root-MuiModal-backdrop {
+    max-width: 100px;
+  }
+  .MuiBox-root {
+    max-width: 90%;
+    max-height: 90%;
+  }
+  .about.center {
+    text-align: center;
   }
 }
