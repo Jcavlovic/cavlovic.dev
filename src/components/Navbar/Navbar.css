@@ -1,7 +1,8 @@
 .nav__list {
-  background: transparent;
   margin-right: 1.5em;
   display: flex;
+  background-color: var(--clr-bg);
+  background: transparent;
 }
 .nav__list-item {
   margin-left: 1.5em;
@@ -9,6 +10,10 @@
 
 .app .nav__hamburger {
   display: none;
+}
+
+.link.link--nav {
+  background-color: transparent;
 }
 
 .nav__theme {
@@ -36,7 +41,10 @@
   .nav__list-item {
     margin: 0.5em 0;
   }
-
+  .nav__list {
+    font-size: 2rem;
+    background-color: var(--clr-bg);
+  }
   .app .nav__hamburger {
     display: flex;
     z-index: 2;
