@@ -30,6 +30,7 @@ const Resume = () => (
         <i> December 2019 - December 2021 </i>
       </ul>
       <br />
+      <br />
     </div>
 
     <div className="skills">
