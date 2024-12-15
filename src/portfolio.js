@@ -38,6 +38,21 @@ const currentprojects = [
     sourceCode: "https://github.com/Jcavlovic/raptorv3",
     livePreview: "",
   },
+  {
+    name: "shotgunoffroad.net",
+    date: "December 2024",
+    description:
+      "Developing a website for Shotgun Offroad, a company specializing in the installation and custom fabrication of lift kits, leveling kits, and a wide range of off-road truck accessories.",
+    stack: [
+      "Wordpress",
+      "Vantage Theme",
+      "HTML/CSS",
+      "User Experience",
+      "User Interface",
+    ],
+    sourceCode: "https://github.com/siteorigin/vantage",
+    livePreview: "www.shotgunoffroad.net",
+  },
 ];
 const finishedprojects = [
   // projects can be added an removed
