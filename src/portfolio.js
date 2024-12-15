@@ -51,12 +51,28 @@ const currentprojects = [
       "User Interface",
     ],
     sourceCode: "https://github.com/siteorigin/vantage",
-    livePreview: "www.shotgunoffroad.net",
+    livePreview: "https://www.shotgunoffroad.net",
   },
 ];
 const finishedprojects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
+  {
+    name: "Cavlovic.dev",
+    date: "October 2024",
+    description:
+      "Personal Portfolio Website developed with ReactJS, Bootstrap, and AWS",
+    stack: [
+      "AWS EC2",
+      "AWS Route 53",
+      "Bootstrap",
+      "HTML/CSS",
+      "JavaScript",
+      "ReactJS",
+    ],
+    sourceCode: "https://github.com/Jcavlovic/cavlovic.dev",
+    livePreview: "https://cavlovic.dev",
+  },
   {
     name: "R.A.P.T.O.R. v1.0",
     date: "May 2024",
@@ -73,22 +89,6 @@ const finishedprojects = [
     ],
     sourceCode: "https://github.com/Jcavlovic/raptorv1",
     livePreview: "",
-  },
-  {
-    name: "Cavlovic.dev",
-    date: "October 2024",
-    description:
-      "Personal Portfolio Website developed with ReactJS, Bootstrap, and AWS",
-    stack: [
-      "AWS EC2",
-      "AWS Route 53",
-      "Bootstrap",
-      "HTML/CSS",
-      "JavaScript",
-      "ReactJS",
-    ],
-    sourceCode: "https://github.com/Jcavlovic/cavlovic.dev",
-    livePreview: "https://cavlovic.dev",
   },
   {
     name: "Machine Learning Inference on NVIDIA Jetson Nano & MSP430",
