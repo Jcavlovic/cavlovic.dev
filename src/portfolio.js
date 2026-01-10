@@ -38,21 +38,6 @@ const currentprojects = [
     sourceCode: "https://github.com/Jcavlovic/raptorv3",
     livePreview: "",
   },
-  {
-    name: "shotgunoffroad.net",
-    date: "December 2024",
-    description:
-      "Developing a website for Shotgun Offroad, a company specializing in the installation and custom fabrication of lift kits, leveling kits, and a wide range of off-road truck accessories.",
-    stack: [
-      "Wordpress",
-      "Vantage Theme",
-      "HTML/CSS",
-      "User Experience",
-      "User Interface",
-    ],
-    sourceCode: "https://github.com/siteorigin/vantage",
-    livePreview: "https://www.shotgunoffroad.net",
-  },
 ];
 const finishedprojects = [
   // projects can be added an removed
@@ -72,6 +57,30 @@ const finishedprojects = [
     ],
     sourceCode: "https://github.com/Jcavlovic/cavlovic.dev",
     livePreview: "https://cavlovic.dev",
+  },
+  {
+    name: "Electronic Store Inventory WebApp",
+    date: "December 2025",
+    description:
+      "Developed a webapp for Intro to Cloud Computing that used CRUD operations to store inventory for a mock electronic store. Used Python, HTML/CSS, Javascript along with Amazon Web Services EC2, DynamoDB, and Docker for hosting and deploying.",
+    stack: ["Python", "HTML/CSS", "Javascript", "AWS EC2", "Amazon DynamoDB"],
+    sourceCode: "https://github.com/Jcavlovic/cloud_computing_final",
+    livePreview: "https://cc-final.cavlovic.dev",
+  },
+  {
+    name: "shotgunoffroad.net",
+    date: "December 2024",
+    description:
+      "Developing a website for Shotgun Offroad, a company specializing in the installation and custom fabrication of lift kits, leveling kits, and a wide range of off-road truck accessories.",
+    stack: [
+      "Wordpress",
+      "Vantage Theme",
+      "HTML/CSS",
+      "User Experience",
+      "User Interface",
+    ],
+    sourceCode: "https://github.com/siteorigin/vantage",
+    livePreview: "https://www.shotgunoffroad.net",
   },
   {
     name: "R.A.P.T.O.R. v1.0",

@@ -19,6 +19,11 @@ const Resume = () => (
       <h2>Education</h2>
       <br />
       <ul>
+        <strong>Masters of Science in Computer Engineering</strong> | University
+        of Texas San Antonio | San Antonio, TX
+        <br />
+        <i>Anticipated May 2027</i>
+        <br />
         <strong>Bachelor of Science in Computer Engineering</strong> |
         University of Texas San Antonio | San Antonio, TX
         <br />
@@ -37,13 +42,101 @@ const Resume = () => (
       <h2>Key Skills</h2>
       <br />
       <ul>
-        <li>Python | C# | Java | C/C++ | JavaScript | HTML/CSS</li>
+        <li>Python | Java | C/C++ | JavaScript | HTML/CSS</li>
         <li>
-          Windows | Linux | AWS | Microsoft Office/365 | Docker | Kubernetes |
-          MongoSQL
+          Windows | Linux | AWS | Microsoft Office/365 | Docker | GNURadio
         </li>
-        <li>ReactJS | Fast API | NGINX | jQuery | Bootstrap | GIT</li>
-        <li>Leadership | Problem Solving | Communication | Adaptability</li>
+        <li>ReactJS | Flask API | NGINX | Bootstrap | GIT | Linux</li>
+        <li>Leadership | Problem Solving | Communication </li>
+      </ul>
+    </div>
+    <br />
+
+    <div className="experience">
+      <h2>Professional Experience</h2>
+      <br />
+      <ul>
+        <strong>Associate Software Engineer</strong> | L3Harris | Waco, TX |{" "}
+        <i>January 2025</i>
+        <br />
+        <li>
+          Collaborated in an agile environment with monthly sprints, contributed
+          to sprint planning, weekly stand-ups, ensured on-time delivery of 100%
+          of project task while maintaining code quality through peer reviews
+          and CI/CD pipelines.
+        </li>
+        <li>
+          Independently developed a prototype within six months of start date,
+          successfully tested at multiple test events across the USA, and
+          secured 24,000 contract hours for the software development team.
+        </li>
+        <li>
+          Lead software development for RF applications supporting the U.S. Air
+          Force; developed comprehensive Software Development Process document,
+          created project schedules using Microsoft Project and delegated tasks
+          across the development team to ensure timely delivery using JIRA.
+        </li>
+        <li>
+          Designed and implemented a Jenkins CI/CD pipeline to streamline
+          development workflows, including automated environment setup, PEP8
+          code style enforcement, code coverage analysis, and unit
+          testing—enhancing code quality, consistency, and deployment
+          efficiency.
+        </li>
+        <li>
+          Engineered an in-house LLM system leveraging Hugging Face's
+          StarCoder2-15B model for code generation, and Mistral-7B for chat, to
+          automate code generation for internal team, reducing development time,
+          and increasing productivity.
+        </li>
+        <li>
+          Maintained ATAC software utilizing Java 11, Eclipse IDE for coding,
+          debugging, and implementing enhancements, with Gradle and Ant employed
+          for efficient build automation and dependency management.
+        </li>
+        <strong>Web Developer/administrator</strong> | Freelance |{" "}
+        <a href="https://shotgunoffroad.net">shotgunoffroad.net</a> |{" "}
+        <i>June 2024</i>
+        <br />
+        <li>
+          Designed and developed a responsive WordPress website for Shotgun
+          Offroad, a company specializing in lift kits, leveling kits, and
+          off-road truck accessories.
+        </li>
+        <li>
+          Deployed site using WordPress with domain and hosting managed via
+          GoDaddy.
+        </li>
+        <li>
+          Ensured proper search engine optimization (SEO) through keyword
+          integration, metadata, and performance optimization to improve online
+          visibility.
+        </li>
+        <li>
+          Configured and deployed Google Ads campaigns to drive targeted traffic
+          and increase customer acquisition.
+        </li>
+        <strong>Bartender</strong> | Red Robin | San Antonio, TX |{" "}
+        <i>June 2015 - July 2024</i>
+        <br />
+        <li>
+          Demonstrated self-discipline, time management, and teamwork by meeting
+          goals under pressure, while enhancing collaboration and
+          problem-solving through active listening and understanding diverse
+          perspectives.
+        </li>
+        <li>
+          Actively listened to guests and asked thoughtful, clarifying questions
+          to understand their preferences, tastes, and expectations, and offered
+          personalized drink recommendations, prompt service, and a welcoming
+          atmosphere that enhanced the overall guest experience.
+        </li>
+        <li>
+          Trained new team members on proper drink preparation techniques, bar
+          cleanliness and organization standards, and adherence to company
+          policies—ensuring consistency in service quality, compliance with
+          health and safety regulations, and a smooth onboarding experience.
+        </li>
       </ul>
     </div>
     <br />
@@ -89,6 +182,28 @@ const Resume = () => (
       <h2>School Projects</h2>
       <br />
       <ul>
+        <strong>Electronic Store Inventory WebApp</strong> |{" "}
+        <i>December 2025</i>
+        <br />
+        <li>
+          Final project for Intro to Cloud Computing EE-5523 University of Texas
+          San Antonio
+        </li>
+        <li>
+          Managed project timelines by organizing assignments with clear
+          deadlines, elegated tasks among team members, and ensured meaningful
+          contributions from each participant.
+        </li>
+        <li>
+          Designed a web app for a mock electronics store to apply CRUD (Create,
+          Read, Update, Delete) operations for a mock electronics store.
+        </li>
+        <li>
+          Designed and implemented a backend using Python and Flask API, hosted
+          on an Amazon EC2 server, with Amazon DynamoDB for efficient data
+          storage and querying.
+        </li>
+        <br />
         <strong>Autonomous Search and Rescue Object Detection</strong> |{" "}
         <i>August 2023 - May 2024</i>
         <br />
@@ -181,44 +296,6 @@ const Resume = () => (
         <strong>Spring 2024 UTSA Student Honor Roll</strong> | <i>July 2024</i>
         <br />
         <li>18 Credit Hours Semester GPA 3.66</li>
-      </ul>
-    </div>
-    <br />
-
-    <div className="experience">
-      <h2>Professional Experience</h2>
-      <br />
-      <ul>
-        <strong>Bartender</strong> | Red Robin | San Antonio, TX |{" "}
-        <i>June 2015 - July 2024</i>
-        <br />
-        <li>
-          Actively listened and asked clarifying questions to ensure a deep
-          understanding of client goals.
-        </li>
-        <li>
-          Trained new hires to prepare drinks properly, keep bar area clean and
-          organized, and adhere to company policy.
-        </li>
-        <strong>Photographer</strong> | Lujack’s Auto Plaza | Davenport, IA |{" "}
-        <i>January 2013 - May 2015</i>
-        <br />
-        <li>
-          Skilled in post-production, photo-editing using Adobe Photoshop, and
-          proficient in operating DSLR cameras.
-        </li>
-        <li>Worked both independently and within a team environment.</li>
-        <strong>Line Cook</strong> | Applebee’s Bar and Grill | Davenport, IA |{" "}
-        <i>May 2010 - January 2013</i>
-        <br />
-        <li>
-          Prepared and cooked a variety of menu items using standardized recipes
-          and ensure consistency in taste and quality.
-        </li>
-        <li>
-          Adhered to strict food safety and sanitation standards and
-          collaborated effectively with the kitchen team.
-        </li>
       </ul>
     </div>
     <br />

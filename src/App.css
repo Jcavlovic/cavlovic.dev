@@ -6,7 +6,7 @@
 }
 
 .light {
-  background-image: url(../public/background.png);
+  background-image: url(../public/background.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -21,7 +21,7 @@
 }
 
 .dark {
-  background-image: url(../public/background.png);
+  background-image: url(../public/background.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
