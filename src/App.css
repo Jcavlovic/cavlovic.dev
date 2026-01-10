@@ -180,7 +180,7 @@ main {
     left: 0;
     width: 100vw; /* Full viewport width */
     height: 100vh; /* Full viewport height */
-    background-image: url(../public/background_small.png); /* Path to your background image */
+    background-image: url(../public/background.jpg); /* Path to your background image */
     background-repeat: no-repeat; /* Prevents tiling */
     background-position: center; /* Centers the image */
     background-size: cover; /* Ensures the image covers the viewport */
