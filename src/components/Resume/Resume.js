@@ -183,6 +183,13 @@ const Resume = () => (
       <br />
       <ul>
         <strong>Electronic Store Inventory WebApp</strong> |{" "}
+        <a
+          href="https://cc-final.cavlovic.dev"
+          target="_blank"
+          rel="noreferrer"
+        >
+          https://cc-final.cavlovic.dev
+        </a>{" "}
         <i>December 2025</i>
         <br />
         <li>
