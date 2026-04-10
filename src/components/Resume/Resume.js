@@ -16,15 +16,15 @@ const Resume = () => (
       <h2>Education</h2>
       <br />
       <ul>
-        <strong>Masters of Science in Computer Engineering</strong> | University
-        of Texas San Antonio | San Antonio, TX
+        <strong>Masters of Science in Computer Engineering</strong>
+        <span style={{ float: 'right', fontStyle: 'italic' }}>May 2027</span>
         <br />
-        <i>Anticipated May 2027</i>
+        University of Texas San Antonio
         <br />
-        <strong>Bachelor of Science in Computer Engineering</strong> |
-        University of Texas San Antonio | San Antonio, TX
+        <strong>Bachelor of Science in Computer Engineering</strong>
+        <span style={{ float: 'right', fontStyle: 'italic' }}>May 2024</span>
         <br />
-        <i>January 2022 - May 2024</i>
+        University of Texas San Antonio
       </ul>
       <br />
     </div>
@@ -33,11 +33,8 @@ const Resume = () => (
       <h2>Key Skills</h2>
       <br />
       <ul>
-        <li>Python | Java | C/C++ | JavaScript | HTML/CSS</li>
-        <li>
-          Windows | Linux | AWS | Microsoft Office/365 | Docker | GNURadio
-        </li>
-        <li>ReactJS | Flask API | NGINX | Bootstrap | GIT | Linux</li>
+        <li>Python | C++ | Java | CUDA | AWS EC2 | AWS Route53</li>
+        <li>Linux | Windows | Docker | JIRA | Bitbucket | GIT</li>
         <li>Leadership | Problem Solving | Communication </li>
       </ul>
     </div>
@@ -74,11 +71,9 @@ const Resume = () => (
           <strong>Maintained</strong> ATAC software using Java 11, with Eclipse IDE for coding, debugging, bugfixes, and implementing new
             product features, using Gradle and Ant employed for build automation and dependency management
         </li>
-        <br />
         <strong style={{ color: '#2978b5' }}>Web Developer/Administrator</strong> | Freelance |{" "}
         <a href="https://shotgunoffroad.net">shotgunoffroad.net</a>
         <span style={{ float: 'right', fontStyle: 'italic' }}>June 2024</span>
-        <br />
         <li>
           <strong>Designed and developed</strong> a responsive WordPress website for Shotgun
           Offroad, a company specializing in lift kits, leveling kits, and
@@ -92,7 +87,6 @@ const Resume = () => (
           <strong>Utilized</strong> HTML/CSS to enhance website design and user experience, increasing user engagement, driving higher site
             traffic, and improving customer perception of aftermarket installation services.
         </li>
-        <br />
         <strong style={{ color: '#2978b5' }}>Bartender</strong> | Red Robin | San Antonio, TX
         <span style={{ float: 'right', fontStyle: 'italic' }}>July 2024</span>
         <br />
@@ -255,15 +249,17 @@ const Resume = () => (
       <h2>Accomplishments</h2>
       <br />
       <ul>
-        <strong>L3Harris Performance Award</strong> | L3Harris | <i>July 2025</i>
+        <strong>L3Harris Performance Award</strong> | L3Harris
+        <span style={{ float: 'right', fontStyle: 'italic' }}>July 2025</span>
         <br />
         <li>Embodied L3Harris core value to “Always Deliver”</li>
         <strong>“Honorable Mention”</strong> | UTSA ECE Department |{" "}
-        <i>December 2023</i>
+        <span style={{ float: 'right', fontStyle: 'italic' }}>December 2023</span>
         <br />
         <li>Craps Casino Game Nexys A7 Artix-7 FPGA</li>
         <strong>Professors Recommendation for Graduate School</strong> |
-        Wei-Ming Lin, Ph.D. | <i>May 2024</i>
+        Wei-Ming Lin, Ph.D.
+        <span style={{ float: 'right', fontStyle: 'italic' }}>May 2024</span>
         <br />
         <li>
           Dr. Lin has personally recommended me for admission to Graduate
