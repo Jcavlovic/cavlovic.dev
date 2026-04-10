@@ -5,14 +5,11 @@ const Resume = () => (
   <div className="resume">
     <h1>Jordan Cavlovic</h1>
     <p style={{ textAlign: "center" }} className="contact-info">
-      Little Elm, TX |{" "}
-      <a href="mailto:jcavlovic91@gmail.com">jcavlovic91@gmail.com</a> |
-      210-630-9871 |{" "}
-      <a href="https://cavlovic.dev" target="_blank" rel="noreferrer">
-        https://cavlovic.dev
-      </a>
+      <a href="mailto:jcavlovic91@gmail.com">Gmail</a> | {" "}
+      <a href="https://github.com/jcavlovic" target="_blank" rel="noreferrer">GitHub</a> | {" "}
+      <a href="https://www.linkedin.com/in/jordan-cavlovic-507629199/" target="_blank" rel="noreferrer">LinkedIn</a> | {" "}
+      <a href="https://cavlovic.dev" target="_blank" rel="noreferrer">Personal Portfolio</a>
     </p>
-    <br />
 
     <div className="education">
       <br />
@@ -28,13 +25,7 @@ const Resume = () => (
         University of Texas San Antonio | San Antonio, TX
         <br />
         <i>January 2022 - May 2024</i>
-        <br />
-        <strong>Associate of Science in Computer Science</strong> | Northwest
-        Vista Community College | San Antonio, TX
-        <br />
-        <i> December 2019 - December 2021 </i>
       </ul>
-      <br />
       <br />
     </div>
 
@@ -56,83 +47,69 @@ const Resume = () => (
       <h2>Professional Experience</h2>
       <br />
       <ul>
-        <strong>Associate Software Engineer</strong> | L3Harris | Waco, TX |{" "}
-        <i>January 2025</i>
+        <strong style={{ color: '#2978b5' }}>Associate Software Engineer</strong> | L3Harris | Waco, TX
+        <span style={{ float: 'right', fontStyle: 'italic' }}>January 2025</span>
         <br />
         <li>
-          Collaborated in an agile environment with monthly sprints, contributed
-          to sprint planning, weekly stand-ups, ensured on-time delivery of 100%
-          of project task while maintaining code quality through peer reviews
-          and CI/CD pipelines.
+          <strong>Lead</strong> software development for RF application in support of the USAF using National Instruments x400, x300 Software
+            Defined Radios and Empower 1193 Amplifier ensuring 100% on-time delivery of software updates.
         </li>
         <li>
-          Independently developed a prototype within six months of start date,
-          successfully tested at multiple test events across the USA, and
-          secured 24,000 contract hours for the software development team.
+          <strong>Secured</strong> 24,000 contract hours and improved customer perception and satisfaction by developing and validating a
+            prototype RF application through multiple test events.
         </li>
         <li>
-          Lead software development for RF applications supporting the U.S. Air
-          Force; developed comprehensive Software Development Process document,
-          created project schedules using Microsoft Project and delegated tasks
-          across the development team to ensure timely delivery using JIRA.
+          <strong>Created</strong> comprehensive Software Development Process documentation, project schedule using Microsoft Project and
+            delegated tasks across Software, Systems and Test engineering team.
         </li>
         <li>
-          Designed and implemented a Jenkins CI/CD pipeline to streamline
-          development workflows, including automated environment setup, PEP8
-          code style enforcement, code coverage analysis, and unit
-          testing—enhancing code quality, consistency, and deployment
-          efficiency.
+          <strong>Increased</strong> development efficiency by 20% by designing and implementing a Jenkins CI/CD pipeline with automated
+            environment setup, PEP8 enforcement, unit testing and code coverage analysis.
         </li>
         <li>
-          Engineered an in-house LLM system leveraging Hugging Face's
-          StarCoder2-15B model for code generation, and Mistral-7B for chat, to
-          automate code generation for internal team, reducing development time,
-          and increasing productivity.
+          <strong>Collaborated</strong> in an agile environment with monthly sprints, contributed to sprint planning, weekly stand-ups, ensured
+            on-time delivery of 100% of project task while maintaining code quality through peer reviews and CI/CD pipelines.
         </li>
         <li>
-          Maintained ATAC software utilizing Java 11, Eclipse IDE for coding,
-          debugging, and implementing enhancements, with Gradle and Ant employed
-          for efficient build automation and dependency management.
+          <strong>Maintained</strong> ATAC software using Java 11, with Eclipse IDE for coding, debugging, bugfixes, and implementing new
+            product features, using Gradle and Ant employed for build automation and dependency management
         </li>
-        <strong>Web Developer/administrator</strong> | Freelance |{" "}
-        <a href="https://shotgunoffroad.net">shotgunoffroad.net</a> |{" "}
-        <i>June 2024</i>
+        <br />
+        <strong style={{ color: '#2978b5' }}>Web Developer/Administrator</strong> | Freelance |{" "}
+        <a href="https://shotgunoffroad.net">shotgunoffroad.net</a>
+        <span style={{ float: 'right', fontStyle: 'italic' }}>June 2024</span>
         <br />
         <li>
-          Designed and developed a responsive WordPress website for Shotgun
+          <strong>Designed and developed</strong> a responsive WordPress website for Shotgun
           Offroad, a company specializing in lift kits, leveling kits, and
           off-road truck accessories.
         </li>
         <li>
-          Deployed site using WordPress with domain and hosting managed via
-          GoDaddy.
+          <strong>Configured and deployed</strong> Google Ads campaigns to drive targeted traffic, boost customer acquisition, and achieve a
+            20% increase in product sales and aftermarket installations.
         </li>
         <li>
-          Ensured proper search engine optimization (SEO) through keyword
-          integration, metadata, and performance optimization to improve online
-          visibility.
+          <strong>Utilized</strong> HTML/CSS to enhance website design and user experience, increasing user engagement, driving higher site
+            traffic, and improving customer perception of aftermarket installation services.
         </li>
-        <li>
-          Configured and deployed Google Ads campaigns to drive targeted traffic
-          and increase customer acquisition.
-        </li>
-        <strong>Bartender</strong> | Red Robin | San Antonio, TX |{" "}
-        <i>June 2015 - July 2024</i>
+        <br />
+        <strong style={{ color: '#2978b5' }}>Bartender</strong> | Red Robin | San Antonio, TX
+        <span style={{ float: 'right', fontStyle: 'italic' }}>July 2024</span>
         <br />
         <li>
-          Demonstrated self-discipline, time management, and teamwork by meeting
+          <strong>Demonstrated </strong>self-discipline, time management, and teamwork by meeting
           goals under pressure, while enhancing collaboration and
           problem-solving through active listening and understanding diverse
           perspectives.
         </li>
         <li>
-          Actively listened to guests and asked thoughtful, clarifying questions
+          <strong>Actively</strong> listened to guests and asked thoughtful, clarifying questions
           to understand their preferences, tastes, and expectations, and offered
           personalized drink recommendations, prompt service, and a welcoming
           atmosphere that enhanced the overall guest experience.
         </li>
         <li>
-          Trained new team members on proper drink preparation techniques, bar
+          <strong>Trained</strong> new team members on proper drink preparation techniques, bar
           cleanliness and organization standards, and adherence to company
           policies—ensuring consistency in service quality, compliance with
           health and safety regulations, and a smooth onboarding experience.
@@ -142,27 +119,28 @@ const Resume = () => (
     <br />
 
     <div className="projects">
-      <h2>Personal Projects</h2>
+      <h2>Projects</h2>
       <br />
       <ul>
-        <strong>Personal Portfolio Website</strong>{" "}
+        <strong style={{ color: '#2978b5' }}>Portfolio Website</strong> | {" "} 
         <a href="https://cavlovic.dev" target="_blank" rel="noreferrer">
           https://cavlovic.dev
         </a>{" "}
-        | <i>October 2024</i>
+        <span style={{ float: 'right', fontStyle: 'italic' }}>October 2024</span>
         <br />
         <li>
-          Deployed custom portfolio website by leveraging AWS EC2, and Route53
-          to deploy website using NGINX web hosting.
+          Designed, deployed, and hosted a custom portfolio website using AWS EC2 instance, leveraging Route 53 for DNS
+            configuration and NGINX as the web server for efficient content delivery
         </li>
         <li>
-          Deployed webpages using ReactJS, HTML5, Bootstrap 5.3.3, and jQuery.
+          Developed and deployed responsive, component-based web pages with ReactJS and HTML/CSS, focusing on intuitive
+            user experiences, modern UI design, cross-platform compatibility.
         </li>
         <br />
-        <strong>
+        <strong style={{ color: '#2978b5' }}>
           Autonomous Search and Rescue Object Detection Deployment to AWS
-        </strong>{" "}
-        | <i>November 2024</i>
+        </strong>
+        <span style={{ float: 'right', fontStyle: 'italic' }}>November 2024</span>
         <li>
           Working on porting and deploying Engineering Capstone Project to AWS
           EC2 instance.
@@ -177,12 +155,8 @@ const Resume = () => (
       </ul>
     </div>
     <br />
-
-    <div className="projects">
-      <h2>School Projects</h2>
-      <br />
       <ul>
-        <strong>Electronic Store Inventory WebApp</strong> |{" "}
+        <strong style={{ color: '#2978b5' }}>Electronic Store Inventory WebApp</strong> |{" "}
         <a
           href="https://cc-final.cavlovic.dev"
           target="_blank"
@@ -190,7 +164,7 @@ const Resume = () => (
         >
           https://cc-final.cavlovic.dev
         </a>{" "}
-        <i>December 2025</i>
+        <span style={{ float: 'right', fontStyle: 'italic' }}>December 2025</span>
         <br />
         <li>
           Final project for Intro to Cloud Computing EE-5523 University of Texas
@@ -211,8 +185,8 @@ const Resume = () => (
           storage and querying.
         </li>
         <br />
-        <strong>Autonomous Search and Rescue Object Detection</strong> |{" "}
-        <i>August 2023 - May 2024</i>
+        <strong style={{ color: '#2978b5' }}>Autonomous Search and Rescue Object Detection</strong>
+        <span style={{ float: 'right', fontStyle: 'italic' }}>August 2023 - May 2024</span>
         <br />
         <li>
           Senior design project focused on creating an autonomous object
@@ -240,10 +214,10 @@ const Resume = () => (
           operation upon boot.
         </li>
         <br />
-        <strong>
-          Machine Learning Inference on NVIDIA Jetson Nano & MSP430
+        <strong style={{ color: '#2978b5' }}>
+          MINST Convolution Neural Network NVIDIA Jetson Nano
         </strong>{" "}
-        | <i>January 2024 - May 2024</i>
+        <span style={{ float: 'right', fontStyle: 'italic' }}>January 2024 - May 2024</span>
         <li>
           Collaborated with a team of three to develop code to perform inference
           using the Nvidia Jetson Nano and MSP430, trained and tested it with
@@ -264,31 +238,26 @@ const Resume = () => (
           processing.
         </li>
         <br />
-        <strong>Self-Leveling Tilt Table and Self-Driving RC Car</strong> |{" "}
-        <i>January 2024 - May 2024</i>
-        <li>Developed embedded devices with the KL25z Freedom Board.</li>
+        <strong style={{ color: '#2978b5' }}>DLX Microprocessor ALU design NEXYS A7</strong>
+        <span style={{ float: 'right', fontStyle: 'italic' }}>February 2026</span>
         <li>
-          Collaborated with a team of four to develop two embedded devices
-          utilizing the KL25z Freedom Board.
+          Designed, synthesized, and implemented an Arithmetic Logic Unit (ALU) based on the DLX microprocessor
+            architecture, supporting operations such as ADD, SUB, SLL, and SRL through opcode-driven control using VERILOG.
         </li>
         <li>
-          Integrated a touch pad along with two servos onto a table to allow for
-          the change in pitch on the X and Y axis to ensure automatic adjustment
-          of a steel ball to the center of the table.
-        </li>
-        <li>
-          Utilized the Freedom Board to control a car on a track, incorporated a
-          camera for detecting the barrier of the track and adjusting the
-          direction of the wheels to ensure the car stayed centered.
+          Developed a 7-segment display interface to visualize ALU output results, implemented opcode selection using onboard
+            buttons, and enabled S1/S2 bus input loading via DIP switches.
         </li>
       </ul>
-    </div>
     <br />
 
     <div className="accomplishments">
       <h2>Accomplishments</h2>
       <br />
       <ul>
+        <strong>L3Harris Performance Award</strong> | L3Harris | <i>July 2025</i>
+        <br />
+        <li>Embodied L3Harris core value to “Always Deliver”</li>
         <strong>“Honorable Mention”</strong> | UTSA ECE Department |{" "}
         <i>December 2023</i>
         <br />
@@ -300,37 +269,9 @@ const Resume = () => (
           Dr. Lin has personally recommended me for admission to Graduate
           School.
         </li>
-        <strong>Spring 2024 UTSA Student Honor Roll</strong> | <i>July 2024</i>
-        <br />
-        <li>18 Credit Hours Semester GPA 3.66</li>
       </ul>
     </div>
     <br />
-
-    <div className="references">
-      <h2>References</h2>
-      <br />
-      <ul>
-        <li>
-          <strong>Luis Martinez</strong> | Classmate
-          <br />
-          <a href="mailto:luiworkztch@gmail.com">luiworkztch@gmail.com</a> |
-          (512)-924-5608
-        </li>
-        <li>
-          <strong>Alex Fust</strong> | Senior Design Associate
-          <br />
-          <a href="mailto:alexdfust@gmail.com">alexdfust@gmail.com</a> |
-          (702)-378-7331
-        </li>
-        <li>
-          <strong>John Johnson</strong> | Colleague
-          <br />
-          <a href="mailto:johnj8882@yahoo.com">johnj8882@yahoo.com</a> |
-          (210)-800-4508
-        </li>
-      </ul>
-    </div>
   </div>
 );
 
