@@ -30,12 +30,24 @@ const currentprojects = [
       "JavaScript",
       "FastAPI",
       "HTML/CSS",
-      "MongoSQL",
+      "MongoDB",
       "ReactJS",
       "Docker",
-      "Machine Learning",
     ],
     sourceCode: "https://github.com/Jcavlovic/raptorv3",
+    livePreview: "",
+  },
+  {
+    name: "DLX ALU NEXYS A7",
+    date: "February 2026",
+    description:
+      "DLX Microprocessor Arthimetic Logical Unit design using Verilog and NEXYS A7 Development Board.",
+    stack: [
+      "Verilog",
+      "Xilinx Vivado",
+      "GIT",
+    ],
+    sourceCode: "https://github.com/Jcavlovic/dlx",
     livePreview: "",
   },
 ];
@@ -151,16 +163,16 @@ const skills = [
   "Python",
   "Java",
   "C++",
-  "C#",
   "C",
-  "MongoSQL",
-  "Verilog",
   "HTML/CSS",
+  "Verilog",
   "JavaScript",
-  "TypeScript",
   "React",
-  "Git",
+  "MongoDB",
+  "Docker",
+  "GIT",
   "CI/CD",
+  "SELinux"
 ];
 
 const contact = {
