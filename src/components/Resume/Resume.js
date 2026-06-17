@@ -16,7 +16,7 @@ const Resume = () => (
       <h2>Education</h2>
       <br />
       <ul>
-        <strong>Masters of Science in Computer Engineering</strong>
+        <strong>Masters of Science in Electrical Engineering</strong>
         <span style={{ float: 'right', fontStyle: 'italic' }}>May 2027</span>
         <br />
         University of Texas San Antonio
