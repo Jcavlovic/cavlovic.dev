@@ -21,6 +21,20 @@ const currentprojects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: "RISC NEXYS A7",
+    date: "July 2027",
+    description:
+      "FPGA-Based RISC Processor Implementation on the Nexys A7 Development Board Using Verilog and Xilinx Vivado",
+    stack: [
+      "NEXYS A7",
+      "Verilog",
+      "Xilinx Vivado",
+      "GIT",
+    ],
+    sourceCode: "https://github.com/Jcavlovic/EE-5193_FPGA_and_HDL/tree/main/final_project",
+    livePreview: "",
+  },
+  {
     name: "R.A.P.T.O.R. v2.0",
     date: "November 2024",
     description:
