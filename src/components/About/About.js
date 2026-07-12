@@ -44,8 +44,6 @@ const About = () => {
           <br />
           <h3>
             University of Texas San Antonio
-            <br />
-            San Antonio, TX | 2024
           </h3>
         </h2>
       )}
