@@ -28,7 +28,7 @@ const About = () => {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
-  const { name, role, description, resume, social } = about;
+  const { name, role, employer, description, resume, social } = about;
 
   return (
     <div className="about center">
@@ -43,7 +43,9 @@ const About = () => {
           {role}
           <br />
           <h3>
-            University of Texas San Antonio
+            <a href={employer.url}>
+               {employer.name}
+              </a>
           </h3>
         </h2>
       )}

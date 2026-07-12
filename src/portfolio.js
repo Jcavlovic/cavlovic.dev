@@ -7,9 +7,13 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: "Jordan Cavlovic",
-  role: "MS Electrical Engineering",
+  role: "Implementation Engineer",
+  employer: {
+            name: "Teleport",
+            url: "https://goteleport.com/"
+            },
   description:
-    "I am a dedicated engineer with a strong foundation in Electrical and Computer Engineering, holding a degree that has equipped me with the skills to bridge the gap between software and hardware. I thrive on the challenge of designing and developing innovative software solutions while also enjoying the hands-on experience of working with hardware systems.",
+    "I am a dedicated engineer with a strong foundation in Electrical and Computer Engineering and am currently pursuing a Master's degree in Electrical Engineering to further strengthen my expertise in both hardware and software systems. My goal is to bridge the gap between software and hardware by developing innovative, efficient, and reliable solutions. I enjoy tackling complex engineering challenges, from designing and implementing software applications to working directly with hardware, and I am passionate about leveraging technology to create meaningful, real-world impact.",
   resume: "https://example.com",
   social: {
     linkedin: "https://www.linkedin.com/in/jordan-cavlovic-507629199/",

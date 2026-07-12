@@ -33,8 +33,8 @@ const Resume = () => (
       <h2>Key Skills</h2>
       <br />
       <ul>
-        <li>Python | C++ | Java | CUDA | AWS EC2 | AWS Route53</li>
-        <li>Linux | Windows | Docker | JIRA | Bitbucket | GIT</li>
+        <li>Python | C/C++ | Java | HTML/CSS | JavaScript | ReactJS | SQL</li>
+        <li>Linux | Windows | Docker | Kubernetes | JIRA | Github/Bitbucket | GIT | GNURadio</li>
         <li>Leadership | Problem Solving | Communication </li>
       </ul>
     </div>
@@ -44,8 +44,37 @@ const Resume = () => (
       <h2>Professional Experience</h2>
       <br />
       <ul>
-        <strong style={{ color: '#2978b5' }}>Associate Software Engineer</strong> | L3Harris | Waco, TX
-        <span style={{ float: 'right', fontStyle: 'italic' }}>January 2025</span>
+
+        <strong style={{ color: '#2978b5' }}>Associate Implementation Engineer</strong> | <a href="https://goteleport.com"> Teleport</a> | Remote
+        <span style={{ float: 'right', fontStyle: 'italic' }}>July 2026</span>
+        <br />
+        <li>
+          <strong>Deployed, maintained, and troubleshot</strong> the Teleport zero-trust access platform using Kubernetes, ensuring secure authentication and reliable access to remote servers.
+        </li>
+        {/* <li>
+          <strong>Secured</strong> 24,000 contract hours and improved customer perception and satisfaction by developing and validating a
+            prototype RF application through multiple test events.
+        </li>
+        <li>
+          <strong>Created</strong> comprehensive Software Development Process documentation, project schedule using Microsoft Project and
+            delegated tasks across Software, Systems and Test engineering team.
+        </li>
+        <li>
+          <strong>Increased</strong> development efficiency by 20% by designing and implementing a Jenkins CI/CD pipeline with automated
+            environment setup, PEP8 enforcement, unit testing and code coverage analysis.
+        </li>
+        <li>
+          <strong>Collaborated</strong> in an agile environment with monthly sprints, contributed to sprint planning, weekly stand-ups, ensured
+            on-time delivery of 100% of project task while maintaining code quality through peer reviews and CI/CD pipelines.
+        </li>
+        <li>
+          <strong>Maintained</strong> ATAC software using Java 11, with Eclipse IDE for coding, debugging, bugfixes, and implementing new
+            product features, using Gradle and Ant employed for build automation and dependency management
+        </li> */}
+
+
+        <strong style={{ color: '#2978b5' }}>Associate Software Engineer</strong> | <a href="https://www.l3harris.com/">L3Harris</a> | Waco, TX
+        <span style={{ float: 'right', fontStyle: 'italic' }}>January 2025 - July 2026</span>
         <br />
         <li>
           <strong>Lead</strong> software development for RF application in support of the USAF using National Instruments x400, x300 Software
@@ -71,8 +100,7 @@ const Resume = () => (
           <strong>Maintained</strong> ATAC software using Java 11, with Eclipse IDE for coding, debugging, bugfixes, and implementing new
             product features, using Gradle and Ant employed for build automation and dependency management
         </li>
-        <strong style={{ color: '#2978b5' }}>Web Developer/Administrator</strong> | Freelance |{" "}
-        <a href="https://shotgunoffroad.net">shotgunoffroad.net</a>
+        <strong style={{ color: '#2978b5' }}>Web Developer/Administrator</strong> | <a href="https://shotgunoffroad.net">shotgunoffroad.net</a> | Remote
         <span style={{ float: 'right', fontStyle: 'italic' }}>June 2024</span>
         <li>
           <strong>Designed and developed</strong> a responsive WordPress website for Shotgun
@@ -87,7 +115,7 @@ const Resume = () => (
           <strong>Utilized</strong> HTML/CSS to enhance website design and user experience, increasing user engagement, driving higher site
             traffic, and improving customer perception of aftermarket installation services.
         </li>
-        <strong style={{ color: '#2978b5' }}>Bartender</strong> | Red Robin | San Antonio, TX
+        {/* <strong style={{ color: '#2978b5' }}>Bartender</strong> | Red Robin | San Antonio, TX
         <span style={{ float: 'right', fontStyle: 'italic' }}>July 2024</span>
         <br />
         <li>
@@ -107,7 +135,7 @@ const Resume = () => (
           cleanliness and organization standards, and adherence to company
           policies—ensuring consistency in service quality, compliance with
           health and safety regulations, and a smooth onboarding experience.
-        </li>
+        </li> */}
       </ul>
     </div>
     <br />
